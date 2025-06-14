@@ -1,0 +1,28 @@
+{
+    "predictions": [
+        {
+            "game_id": "nba-20240521-OKC-IND",
+            "date": "2025-05-21",
+            "target_type": "team",
+            "prediction_type": "is_win",
+            "team": "Oklahoma City Thunder",
+            "probability": 0.68,
+            "confidence": 0.82,
+            "bet_line": "OKC",
+            "bet_type": "winner",
+            "event_datetime": "2025-05-21T00:00:00Z"
+        },
+        {
+            "game_id": "nba-20240521-OKC-IND",
+            "date": "2025-05-21",
+            "target_type": "team",
+            "prediction_type": "is_win",
+            "team": "Indiana Pacers",
+            "probability": 0.32,
+            "confidence": 0.75,
+            "bet_line": "IND",
+            "bet_type": "winner",
+            "event_datetime": "2025-05-21T00:00:00Z"
+        }
+    ]
+}
