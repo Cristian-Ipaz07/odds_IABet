@@ -1,23 +1,30 @@
-import requests
-import os
 import json
+import requests
 from datetime import datetime
+from scripts.config import SPORTRADAR_API_KEY
 
 # Palabras clave de mercados a guardar (amplia si quieres agregar más)
 MERCADOS_CLAVE = [
+    # total de puntos
     "total points",
-    "total rebounds",
+    # asistencias
     "total assists",
+    # rebotes
+    "total rebounds",
+    # triples
     "total 3-point",
+    # robos
     "total steals",
+    # bloqueos
     "total blocks",
+    # perdidas
     "total turnovers",
+    # dobles (2-point shots)
+    "total 2-point",
+    # dobles dobles
     "double double",
+    # triples dobles
     "triple double",
-    "total points plus rebounds",
-    "total points plus assists",
-    "total rebounds plus assists",
-    "total points plus assists plus rebounds"
 ]
 
 def es_mercado_interesante(nombre_mercado):
@@ -70,38 +77,30 @@ def filtrar_player_props(data):
             salida["players_props"].append(jugador)
     return salida
 
-def main(event_id):
-    # DATOS DE LA API
-    
-    url = f"https://api.sportradar.com/oddscomparison-player-props/trial/v2/en/sport_events/sr%3Asport_event%3A{event_id}/players_props.json"
-    headers = {
-        "accept": "application/json",
-        "x-api-key": "36gjsCXhNXNHAlY5GpJmnULsBVVRtglNholUq3Sa"
-    }
+def get_player_props(event_id, api_key=SPORTRADAR_API_KEY):
+    """Obtiene y filtra los player props para un evento."""
+
+    url = (
+        "https://api.sportradar.com/oddscomparison-player-props/trial/v2/en/"
+        f"sport_events/sr%3Asport_event%3A{event_id}/players_props.json"
+    )
+    headers = {"accept": "application/json", "x-api-key": api_key}
     print("Solicitando datos a la API de SportRadar...")
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
-        print(f"Error al obtener los datos: {response.status_code}")
-        print(response.text)
-        return
+        raise ValueError(
+            f"Error al obtener los datos: {response.status_code} {response.text}"
+        )
 
     data = response.json()
 
     # FILTRAR SOLO MERCADOS IMPORTANTES
     filtrado = filtrar_player_props(data)
 
-    # GUARDAR RESULTADO
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    output_dir = os.path.join(base_dir, "json", "odds_extraidas")
-    os.makedirs(output_dir, exist_ok=True)
-    output_filename = "odds_completas_player_props.json"
-    output_path = os.path.join(output_dir, output_filename)
+    return filtrado
 
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(filtrado, f, ensure_ascii=False, indent=2)
-    
-    print(f"Player props filtrados guardados en: {output_path}")
-    print(f"Jugadores procesados: {len(filtrado['players_props'])}")
 
 if __name__ == "__main__":
-    main("56930759")
+    sample_event = "56930759"
+    props = get_player_props(sample_event)
+    print(json.dumps(props, indent=2, ensure_ascii=False))
