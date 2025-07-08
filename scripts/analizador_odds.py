@@ -158,49 +158,32 @@ def imprimir_resumen(analisis):
     else:
         print("No hay recomendaciones con valor positivo")
 
-def main():
+def analizar_odds(datos_modelo, odds_data):
+    """Devuelve el análisis completo de odds y predicciones."""
+
+    odds_api = odds_data[0] if isinstance(odds_data, list) else odds_data
+    odds_consolidadas = procesar_odds(odds_api)
+    recomendaciones = generar_recomendaciones(
+        datos_modelo['predictions'], odds_consolidadas, odds_api
+    )
+    analisis_completo = generar_json_integrado(
+        datos_modelo['predictions'], odds_api, odds_consolidadas, recomendaciones
+    )
+    return analisis_completo
+
+
+def main(datos_modelo_path, odds_api_path):
+    """Ejemplo de uso cargando archivos locales."""
+
     try:
-        BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        DATA_JSON_DIR = os.path.join(BASE_DIR, 'data', 'json')
-        ODDS_JSON_DIR = os.path.join(BASE_DIR, 'json', 'odds_extraidas')
-        
-        os.makedirs(DATA_JSON_DIR, exist_ok=True)
-        os.makedirs(ODDS_JSON_DIR, exist_ok=True)
-
-        datos_modelo_path = os.path.join(DATA_JSON_DIR, 'datos_modelo.json')
-        output_path = os.path.join(DATA_JSON_DIR, 'analisis_odds.json')
-
-        # Obtener archivo más reciente de odds
-        odds_api_path = obtener_archivo_mas_reciente(ODDS_JSON_DIR)
-        if not odds_api_path:
-            raise FileNotFoundError(f"No se encontraron archivos de odds en {ODDS_JSON_DIR}")
-        
-        print(f"Usando archivo de odds más reciente: {os.path.basename(odds_api_path)}")
-
-        # Cargar datos del modelo
         with open(datos_modelo_path, 'r', encoding='utf-8') as f:
             datos_modelo = json.load(f)
-            if not isinstance(datos_modelo, dict) or 'predictions' not in datos_modelo:
-                raise ValueError("Formato incorrecto en datos_modelo.json")
-
-        # Cargar datos de odds
         with open(odds_api_path, 'r', encoding='utf-8') as f:
             odds_data = json.load(f)
-            if not odds_data:
-                raise ValueError("El archivo de odds está vacío")
 
-        # Procesamiento
-        odds_api = odds_data[0] if isinstance(odds_data, list) else odds_data
-        odds_consolidadas = procesar_odds(odds_api)
-        recomendaciones = generar_recomendaciones(datos_modelo['predictions'], odds_consolidadas, odds_api)
-        analisis_completo = generar_json_integrado(datos_modelo['predictions'], odds_api, odds_consolidadas, recomendaciones)
-
-        # Guardar resultados
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(analisis_completo, f, indent=2, ensure_ascii=False)
-        
-        imprimir_resumen(analisis_completo)
-        print(f"\nAnálisis completo guardado en: {output_path}")
+        analisis = analizar_odds(datos_modelo, odds_data)
+        imprimir_resumen(analisis)
+        return analisis
 
     except FileNotFoundError as e:
         print(f"\nERROR: {str(e)}")
@@ -209,5 +192,11 @@ def main():
     except Exception as e:
         print(f"\nERROR inesperado: {str(e)}")
 
+
 if __name__ == '__main__':
-    main()
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    datos_modelo_path = os.path.join(BASE_DIR, 'data', 'json', 'datos_modelo.json')
+    odds_dir = os.path.join(BASE_DIR, 'json', 'odds_extraidas')
+    odds_file = obtener_archivo_mas_reciente(odds_dir)
+    if odds_file:
+        main(datos_modelo_path, odds_file)

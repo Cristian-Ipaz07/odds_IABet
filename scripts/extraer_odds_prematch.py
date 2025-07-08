@@ -1,21 +1,21 @@
-import requests
-import os
 import json
+import requests
+from scripts.config import SPORTRADAR_API_KEY
 
-# Parámetros de la consulta
-url = "https://api.sportradar.com/oddscomparison-prematch/trial/v2/en/sport_events/sr%3Asport_event%3A56328113/sport_event_markets.json"
-api_key = "36gjsCXhNXNHAlY5GpJmnULsBVVRtglNholUq3Sa"
 
-# Headers
-headers = {
-    "accept": "application/json",
-    "x-api-key": api_key
-}
+def get_prematch_odds(event_id, api_key=SPORTRADAR_API_KEY):
+    """Obtiene y procesa las odds prematch para el evento indicado."""
 
-# Realizar la petición GET
-response = requests.get(url, headers=headers)
+    url = (
+        "https://api.sportradar.com/oddscomparison-prematch/trial/v2/en/"
+        f"sport_events/sr%3Asport_event%3A{event_id}/sport_event_markets.json"
+    )
+    headers = {"accept": "application/json", "x-api-key": api_key}
 
-if response.status_code == 200:
+    response = requests.get(url, headers=headers)
+    if response.status_code != 200:
+        raise ValueError(f"Error {response.status_code}: {response.text}")
+
     data = response.json()
     sport_event = data.get("sport_event", {})
     markets = data.get("markets", [])
@@ -104,24 +104,24 @@ if response.status_code == 200:
                     })
     # Pasar a lista
     bookmakers = list(books_dict.values())
-    
+
     # Armar estructura final
-    result = [{
-        "id": event_id,
-        "sport_key": "basketball",  # puedes ajustar si tienes info de la liga
-        "sport_title": "Basketball",
-        "commence_time": commence_time,
-        "home_team": home_team,
-        "away_team": away_team,
-        "bookmakers": bookmakers
-    }]
-    
-    # Guardar el JSON
-    output_dir = "json/odds_extraidas"
-    os.makedirs(output_dir, exist_ok=True)
-    output_file = os.path.join(output_dir, f"odds_completas_{event_id.replace(':','_')}.json")
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
-    print(f"Odds guardadas en '{output_file}'")
-else:
-    print(f"Error {response.status_code}: {response.text}")
+    result = [
+        {
+            "id": event_id,
+            "sport_key": "basketball",
+            "sport_title": "Basketball",
+            "commence_time": commence_time,
+            "home_team": home_team,
+            "away_team": away_team,
+            "bookmakers": bookmakers,
+        }
+    ]
+
+    return result
+
+
+if __name__ == "__main__":
+    sample_event = "56328113"
+    odds = get_prematch_odds(sample_event)
+    print(json.dumps(odds, indent=2, ensure_ascii=False))
