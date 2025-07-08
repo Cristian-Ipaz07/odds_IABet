@@ -1,0 +1,53 @@
+{
+    "predictions": [
+      {
+        "game_id": "nfl-20240707-PHI-WAS",
+        "event_datetime": "2024-07-07T18:00:00Z",
+        "player_id": "sr:player:827727",
+        "player_name": "Slay, Darius",
+        "team": "Philadelphia Eagles",
+        "market": "total assists (incl. overtime)",
+        "prediction_type": "over",
+        "line": 0.5,
+        "probability": 0.72,
+        "confidence": 0.85
+      },
+      {
+        "game_id": "nfl-20240707-PHI-WAS",
+        "event_datetime": "2024-07-07T18:00:00Z",
+        "player_id": "sr:player:827727",
+        "player_name": "Slay, Darius",
+        "team": "Philadelphia Eagles",
+        "market": "total assists (incl. overtime)",
+        "prediction_type": "under",
+        "line": 0.5,
+        "probability": 0.28,
+        "confidence": 0.65
+      },
+      {
+        "game_id": "nfl-20240707-PHI-WAS",
+        "event_datetime": "2024-07-07T18:00:00Z",
+        "player_id": "sr:player:828039",
+        "player_name": "Wagner, Bobby",
+        "team": "Washington Commanders",
+        "market": "total assists (incl. overtime)",
+        "prediction_type": "over",
+        "line": 3.5,
+        "probability": 0.68,
+        "confidence": 0.80
+      },
+      {
+        "game_id": "nfl-20240707-PHI-WAS",
+        "event_datetime": "2024-07-07T18:00:00Z",
+        "player_id": "sr:player:828039",
+        "player_name": "Wagner, Bobby",
+        "team": "Washington Commanders",
+        "market": "total assists (incl. overtime)",
+        "prediction_type": "under",
+        "line": 3.5,
+        "probability": 0.32,
+        "confidence": 0.60
+      }
+    ]
+  }
+  

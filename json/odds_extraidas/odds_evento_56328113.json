@@ -1,0 +1,3934 @@
+{
+  "generated_at": "2025-07-06T21:06:28+00:00",
+  "sport_event": {
+    "id": "sr:sport_event:56328113",
+    "start_time": "2025-07-06T00:00:00+00:00",
+    "start_time_confirmed": true,
+    "status": "ended",
+    "competitors": [
+      {
+        "id": "sr:competitor:3440",
+        "name": "Minnesota Lynx",
+        "country": "USA",
+        "country_code": "USA",
+        "abbreviation": "MIN",
+        "qualifier": "home",
+        "rotation_number": 614
+      },
+      {
+        "id": "sr:competitor:1200059",
+        "name": "Golden State Valkyries",
+        "country": "USA",
+        "country_code": "USA",
+        "abbreviation": "GSV",
+        "qualifier": "away",
+        "rotation_number": 613
+      }
+    ]
+  },
+  "markets": [
+    {
+      "id": "sr:market:1",
+      "name": "1x2",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1320515765",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1",
+              "type": "home",
+              "odds_decimal": "1.210",
+              "odds_american": "-476",
+              "odds_fraction": "21/100",
+              "open_odds_decimal": "1.240",
+              "open_odds_american": "-417",
+              "open_odds_fraction": "6/25",
+              "external_outcome_id": "-552632870",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:3",
+              "type": "away",
+              "odds_decimal": "4.400",
+              "odds_american": "+340",
+              "odds_fraction": "17/5",
+              "open_odds_decimal": "4.200",
+              "open_odds_american": "+320",
+              "open_odds_fraction": "16/5",
+              "external_outcome_id": "-552632872",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:2",
+              "type": "draw",
+              "odds_decimal": "13.000",
+              "odds_american": "+1200",
+              "odds_fraction": "12/1",
+              "open_odds_decimal": "12.500",
+              "open_odds_american": "+1150",
+              "open_odds_fraction": "23/2",
+              "external_outcome_id": "-552632871",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:1",
+              "type": "home",
+              "odds_decimal": "1.210",
+              "odds_american": "-476",
+              "odds_fraction": "21/100",
+              "open_odds_decimal": "1.220",
+              "open_odds_american": "-455",
+              "open_odds_fraction": "2/9",
+              "external_outcome_id": "-552632870",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:3",
+              "type": "away",
+              "odds_decimal": "4.400",
+              "odds_american": "+340",
+              "odds_fraction": "17/5",
+              "open_odds_decimal": "4.330",
+              "open_odds_american": "+333",
+              "open_odds_fraction": "10/3",
+              "external_outcome_id": "-552632872",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:2",
+              "type": "draw",
+              "odds_decimal": "13.000",
+              "odds_american": "+1200",
+              "odds_fraction": "12/1",
+              "open_odds_decimal": "13.000",
+              "open_odds_american": "+1200",
+              "open_odds_fraction": "12/1",
+              "external_outcome_id": "-552632871",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:219",
+      "name": "winner (incl. overtime)",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1320515764",
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.190",
+              "odds_american": "-526",
+              "odds_fraction": "2/11",
+              "open_odds_decimal": "1.220",
+              "open_odds_american": "-455",
+              "open_odds_fraction": "2/9",
+              "external_outcome_id": "-552632873",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "5.000",
+              "odds_american": "+400",
+              "odds_fraction": "4/1",
+              "open_odds_decimal": "4.500",
+              "open_odds_american": "+350",
+              "open_odds_fraction": "7/2",
+              "external_outcome_id": "-552632874",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:18149",
+          "name": "DraftKings",
+          "removed": true,
+          "external_sport_event_id": "32486358",
+          "external_market_id": "1_80473792",
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.206",
+              "odds_american": "-485",
+              "odds_fraction": "103/500",
+              "open_odds_decimal": "1.200",
+              "open_odds_american": "-500",
+              "open_odds_fraction": "1/5",
+              "external_outcome_id": "0ML80473792_1",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "4.700",
+              "odds_american": "+370",
+              "odds_fraction": "37/10",
+              "open_odds_decimal": "4.800",
+              "open_odds_american": "+380",
+              "open_odds_fraction": "19/5",
+              "external_outcome_id": "0ML80473792_3",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:18186",
+          "name": "FanDuel",
+          "removed": true,
+          "external_sport_event_id": "34470983",
+          "external_market_id": "754.130155321",
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.192",
+              "odds_american": "-521",
+              "odds_fraction": "24/125",
+              "open_odds_decimal": "1.208",
+              "open_odds_american": "-481",
+              "open_odds_fraction": "26/125",
+              "external_outcome_id": "1519953",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "4.700",
+              "odds_american": "+370",
+              "odds_fraction": "37/10",
+              "open_odds_decimal": "4.500",
+              "open_odds_american": "+350",
+              "open_odds_fraction": "7/2",
+              "external_outcome_id": "75136141",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.199",
+              "odds_american": "-503",
+              "odds_fraction": "199/1000",
+              "open_odds_decimal": "1.210",
+              "open_odds_american": "-476",
+              "open_odds_fraction": "21/100",
+              "external_outcome_id": "-552632873",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "4.700",
+              "odds_american": "+370",
+              "odds_fraction": "37/10",
+              "open_odds_decimal": "4.575",
+              "open_odds_american": "+358",
+              "open_odds_fraction": "143/40",
+              "external_outcome_id": "-552632874",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:27447",
+          "name": "SugarHouseNJ",
+          "removed": true,
+          "external_sport_event_id": "1023637378",
+          "external_market_id": "2533447357",
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.180",
+              "odds_american": "-556",
+              "odds_fraction": "2/11",
+              "open_odds_decimal": "1.190",
+              "open_odds_american": "-526",
+              "open_odds_fraction": "2/11",
+              "external_outcome_id": "3795329403",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "4.500",
+              "odds_american": "+350",
+              "odds_fraction": "7/2",
+              "open_odds_decimal": "4.500",
+              "open_odds_american": "+350",
+              "open_odds_fraction": "7/2",
+              "external_outcome_id": "3795329405",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "2f0ed996-ea85-3daa-91fc-67b455d727d5",
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.180",
+              "odds_american": "-556",
+              "odds_fraction": "2/11",
+              "open_odds_decimal": "1.210",
+              "open_odds_american": "-476",
+              "open_odds_fraction": "21/100",
+              "external_outcome_id": "d1e09091-678e-35c4-b72d-4f401927ed13",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "5.000",
+              "odds_american": "+400",
+              "odds_fraction": "4/1",
+              "open_odds_decimal": "4.600",
+              "open_odds_american": "+360",
+              "open_odds_fraction": "18/5",
+              "external_outcome_id": "899d01c4-7df1-35bf-84ba-97f88c903945",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "0d929ffb-d04b-4ea4-8d92-eb5497d6a7de",
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.200",
+              "odds_american": "-500",
+              "odds_fraction": "1/5",
+              "open_odds_decimal": "1.200",
+              "open_odds_american": "-500",
+              "open_odds_fraction": "1/5",
+              "external_outcome_id": "f54d3070-4516-41c0-a0c2-129b8770eda4",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "4.600",
+              "odds_american": "+360",
+              "odds_fraction": "18/5",
+              "open_odds_decimal": "4.600",
+              "open_odds_american": "+360",
+              "open_odds_fraction": "18/5",
+              "external_outcome_id": "341e1c29-e9d1-46c1-af96-a694ec9925e3",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:220",
+      "name": "will there be overtime",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1320515775",
+          "outcomes": [
+            {
+              "id": "sr:outcome:76",
+              "type": "no",
+              "odds_decimal": "1.010",
+              "odds_american": "-10000",
+              "odds_fraction": "1/100",
+              "open_odds_decimal": "1.010",
+              "open_odds_american": "-10000",
+              "open_odds_fraction": "1/100",
+              "external_outcome_id": "-552632840",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:74",
+              "type": "yes",
+              "odds_decimal": "13.000",
+              "odds_american": "+1200",
+              "odds_fraction": "12/1",
+              "open_odds_decimal": "12.500",
+              "open_odds_american": "+1150",
+              "open_odds_fraction": "23/2",
+              "external_outcome_id": "-552632841",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:76",
+              "type": "no",
+              "odds_decimal": "1.010",
+              "odds_american": "-10000",
+              "odds_fraction": "1/100",
+              "open_odds_decimal": "1.015",
+              "open_odds_american": "-6667",
+              "open_odds_fraction": "3/200",
+              "external_outcome_id": "-552632840",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:74",
+              "type": "yes",
+              "odds_decimal": "13.000",
+              "odds_american": "+1200",
+              "odds_fraction": "12/1",
+              "open_odds_decimal": "14.750",
+              "open_odds_american": "+1375",
+              "open_odds_fraction": "55/4",
+              "external_outcome_id": "-552632841",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "369d72d9-60e2-3e97-a9d3-6b0f88358ef9",
+          "outcomes": [
+            {
+              "id": "sr:outcome:76",
+              "type": "no",
+              "odds_decimal": "1.020",
+              "odds_american": "-5000",
+              "odds_fraction": "1/50",
+              "open_odds_decimal": "1.020",
+              "open_odds_american": "-5000",
+              "open_odds_fraction": "1/50",
+              "external_outcome_id": "5b7335ec-90af-333f-a423-047c610753ec",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:74",
+              "type": "yes",
+              "odds_decimal": "16.500",
+              "odds_american": "+1550",
+              "odds_fraction": "31/2",
+              "open_odds_decimal": "16.500",
+              "open_odds_american": "+1550",
+              "open_odds_fraction": "31/2",
+              "external_outcome_id": "acaf6da8-94d8-34c3-b55c-23cc18204916",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "5b85339f-1684-4cfa-af2a-0c61f95df05b",
+          "outcomes": [
+            {
+              "id": "sr:outcome:76",
+              "type": "no",
+              "odds_decimal": "1.020",
+              "odds_american": "-5000",
+              "odds_fraction": "1/50",
+              "open_odds_decimal": "1.020",
+              "open_odds_american": "-5000",
+              "open_odds_fraction": "1/50",
+              "external_outcome_id": "f9fdc170-51b7-4425-82cf-54d88f2e178e",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:74",
+              "type": "yes",
+              "odds_decimal": "14.000",
+              "odds_american": "+1300",
+              "odds_fraction": "13/1",
+              "open_odds_decimal": "14.000",
+              "open_odds_american": "+1300",
+              "open_odds_fraction": "13/1",
+              "external_outcome_id": "de126f42-ce1e-4305-9f53-f8552da5ace7",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:223",
+      "name": "handicap (incl. overtime)",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1327876948",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "handicap": "10.5",
+              "open_handicap": "9.5",
+              "external_outcome_id": "-533485746",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "-10.5",
+              "open_handicap": "-9.5",
+              "external_outcome_id": "-533485745",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:18149",
+          "name": "DraftKings",
+          "removed": true,
+          "external_sport_event_id": "32486358",
+          "external_market_id": "2_80473792",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.909",
+              "odds_american": "-110",
+              "odds_fraction": "909/1000",
+              "open_odds_decimal": "1.909",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "909/1000",
+              "handicap": "10",
+              "open_handicap": "9.5",
+              "external_outcome_id": "0HC80473792P1000_3",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.909",
+              "odds_american": "-110",
+              "odds_fraction": "909/1000",
+              "open_odds_decimal": "1.909",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "909/1000",
+              "handicap": "-10",
+              "open_handicap": "-9.5",
+              "external_outcome_id": "0HC80473792N1000_1",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:18186",
+          "name": "FanDuel",
+          "removed": true,
+          "external_sport_event_id": "34470983",
+          "external_market_id": "754.130155323",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.877",
+              "odds_american": "-114",
+              "odds_fraction": "877/1000",
+              "open_odds_decimal": "1.893",
+              "open_odds_american": "-112",
+              "open_odds_fraction": "893/1000",
+              "handicap": "-9.5",
+              "open_handicap": "-9.5",
+              "external_outcome_id": "1519953",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.943",
+              "odds_american": "-106",
+              "odds_fraction": "943/1000",
+              "open_odds_decimal": "1.926",
+              "open_odds_american": "-108",
+              "open_odds_fraction": "463/500",
+              "handicap": "9.5",
+              "open_handicap": "9.5",
+              "external_outcome_id": "75136141",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.909",
+              "odds_american": "-110",
+              "odds_fraction": "909/1000",
+              "open_odds_decimal": "1.924",
+              "open_odds_american": "-108",
+              "open_odds_fraction": "231/250",
+              "handicap": "10",
+              "open_handicap": "9.5",
+              "external_outcome_id": "21a63f0b-c09a-32dc-821b-240810b9e040",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.909",
+              "odds_american": "-110",
+              "odds_fraction": "909/1000",
+              "open_odds_decimal": "1.895",
+              "open_odds_american": "-112",
+              "open_odds_fraction": "179/200",
+              "handicap": "-10",
+              "open_handicap": "-9.5",
+              "external_outcome_id": "fd39eb4b-f0cd-320a-842d-15de1a3fe015",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:27447",
+          "name": "SugarHouseNJ",
+          "removed": true,
+          "external_sport_event_id": "1023637378",
+          "external_market_id": "2533447372",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.880",
+              "odds_american": "-114",
+              "odds_fraction": "22/25",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "handicap": "9.5",
+              "open_handicap": "9",
+              "external_outcome_id": "3795329435",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.900",
+              "odds_american": "-111",
+              "odds_fraction": "9/10",
+              "open_odds_decimal": "1.850",
+              "open_odds_american": "-118",
+              "open_odds_fraction": "17/20",
+              "handicap": "-9.5",
+              "open_handicap": "-9",
+              "external_outcome_id": "3795329434",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "b9ed87a1-4eec-30cb-89dc-a3e2401500a2",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "handicap": "9.5",
+              "open_handicap": "9.5",
+              "external_outcome_id": "21a63f0b-c09a-32dc-821b-240810b9e040",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "handicap": "-9.5",
+              "open_handicap": "-9.5",
+              "external_outcome_id": "fd39eb4b-f0cd-320a-842d-15de1a3fe015",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "85204c70-9706-4fab-83c3-2d385d6dcf08",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "handicap": "9.5",
+              "open_handicap": "9.5",
+              "external_outcome_id": "a042aa11-042c-4e40-8c0f-129abb591ac0",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "-9.5",
+              "open_handicap": "-9.5",
+              "external_outcome_id": "1abc2464-3e3b-4a15-9e5f-a98ed21a97f5",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:225",
+      "name": "total (incl. overtime)",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1327876951",
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "156.5",
+              "open_total": "157.5",
+              "external_outcome_id": "-533485739",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "156.5",
+              "open_total": "157.5",
+              "external_outcome_id": "-533485740",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:18149",
+          "name": "DraftKings",
+          "removed": true,
+          "external_sport_event_id": "32486358",
+          "external_market_id": "3_80473792",
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.909",
+              "odds_american": "-110",
+              "odds_fraction": "909/1000",
+              "open_odds_decimal": "1.909",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "909/1000",
+              "total": "156",
+              "open_total": "157.5",
+              "external_outcome_id": "0OU80473792U15600_3",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.909",
+              "odds_american": "-110",
+              "odds_fraction": "909/1000",
+              "open_odds_decimal": "1.909",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "909/1000",
+              "total": "156",
+              "open_total": "157.5",
+              "external_outcome_id": "0OU80473792O15600_1",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:18186",
+          "name": "FanDuel",
+          "removed": true,
+          "external_sport_event_id": "34470983",
+          "external_market_id": "754.130784135",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.877",
+              "odds_american": "-114",
+              "odds_fraction": "877/1000",
+              "open_odds_decimal": "1.909",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "909/1000",
+              "total": "155",
+              "open_total": "157.5",
+              "external_outcome_id": "7017823",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.943",
+              "odds_american": "-106",
+              "odds_fraction": "943/1000",
+              "open_odds_decimal": "1.909",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "909/1000",
+              "total": "155",
+              "open_total": "157.5",
+              "external_outcome_id": "7017824",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.877",
+              "odds_american": "-114",
+              "odds_fraction": "877/1000",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "155",
+              "open_total": "156.5",
+              "external_outcome_id": "7017823",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.943",
+              "odds_american": "-106",
+              "odds_fraction": "943/1000",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "total": "155",
+              "open_total": "156.5",
+              "external_outcome_id": "7017824",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:27447",
+          "name": "SugarHouseNJ",
+          "removed": true,
+          "external_sport_event_id": "1023637378",
+          "external_market_id": "2533532750",
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.880",
+              "odds_american": "-114",
+              "odds_fraction": "22/25",
+              "open_odds_decimal": "1.900",
+              "open_odds_american": "-111",
+              "open_odds_fraction": "9/10",
+              "total": "156",
+              "open_total": "157.5",
+              "external_outcome_id": "3795542848",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.900",
+              "odds_american": "-111",
+              "odds_fraction": "9/10",
+              "open_odds_decimal": "1.860",
+              "open_odds_american": "-116",
+              "open_odds_fraction": "43/50",
+              "total": "156",
+              "open_total": "157.5",
+              "external_outcome_id": "3795542846",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "40bfb5ce-3133-3fe8-8d85-ea6b5b7bb96f",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "156",
+              "open_total": "157.5",
+              "external_outcome_id": "b4804c94-93c5-329e-a54c-b9f817a3886b",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "156",
+              "open_total": "157.5",
+              "external_outcome_id": "07aaf137-a936-3cdb-bbb6-6ca5bc219bb3",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "829dc5c5-6e02-47b0-a5e2-5c5108043262",
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "155.5",
+              "open_total": "157.5",
+              "external_outcome_id": "f22a9d7e-64b6-4db4-be1e-a9159936c54b",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "155.5",
+              "open_total": "157.5",
+              "external_outcome_id": "243dfb7d-5e05-4862-a2e5-f66088475e39",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:227",
+      "name": "home total (incl. overtime)",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1328658005",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.780",
+              "odds_american": "-128",
+              "odds_fraction": "39/50",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "total": "82.5",
+              "open_total": "82.5",
+              "external_outcome_id": "-531479594",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "2.000",
+              "odds_american": "+100",
+              "odds_fraction": "1/1",
+              "open_odds_decimal": "1.800",
+              "open_odds_american": "-125",
+              "open_odds_fraction": "4/5",
+              "total": "82.5",
+              "open_total": "82.5",
+              "external_outcome_id": "-531479593",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:18149",
+          "name": "DraftKings",
+          "removed": true,
+          "external_sport_event_id": "32486358",
+          "external_market_id": "3_80496216",
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.800",
+              "odds_american": "-125",
+              "odds_fraction": "4/5",
+              "open_odds_decimal": "1.952",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "119/125",
+              "total": "83.5",
+              "open_total": "81.5",
+              "external_outcome_id": "0OU80496216U8350_3",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.952",
+              "odds_american": "-105",
+              "odds_fraction": "119/125",
+              "open_odds_decimal": "1.800",
+              "open_odds_american": "-125",
+              "open_odds_fraction": "4/5",
+              "total": "83.5",
+              "open_total": "81.5",
+              "external_outcome_id": "0OU80496216O8350_1",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.800",
+              "odds_american": "-125",
+              "odds_fraction": "4/5",
+              "open_odds_decimal": "1.930",
+              "open_odds_american": "-108",
+              "open_odds_fraction": "93/100",
+              "total": "83.5",
+              "open_total": "82.5",
+              "external_outcome_id": "0OU80496216U8350_3",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.952",
+              "odds_american": "-105",
+              "odds_fraction": "119/125",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "total": "83.5",
+              "open_total": "82.5",
+              "external_outcome_id": "0OU80496216O8350_1",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "c4c97e99-3695-3111-891d-132992c728a3",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "82.5",
+              "open_total": "82.5",
+              "external_outcome_id": "46a954f6-021a-3a3c-ba52-7b54d8802de9",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "82.5",
+              "open_total": "82.5",
+              "external_outcome_id": "73c4799a-f5b2-3d20-bba7-94db8f0b53a0",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "e9cc0f99-5ff5-4eb7-8b2b-5a2255f80d1b",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.830",
+              "open_odds_american": "-120",
+              "open_odds_fraction": "5/6",
+              "total": "82.5",
+              "open_total": "83.5",
+              "external_outcome_id": "a6f2abe5-bd00-431f-8ea5-74f08039aece",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "82.5",
+              "open_total": "83.5",
+              "external_outcome_id": "f2338832-353a-41d5-a76d-07cc2d656c29",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:228",
+      "name": "away total (incl. overtime)",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1328658004",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.830",
+              "odds_american": "-120",
+              "odds_fraction": "5/6",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "total": "72.5",
+              "open_total": "72.5",
+              "external_outcome_id": "-531479596",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "total": "72.5",
+              "open_total": "72.5",
+              "external_outcome_id": "-531479595",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:18149",
+          "name": "DraftKings",
+          "removed": true,
+          "external_sport_event_id": "32486358",
+          "external_market_id": "3_80496220",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.833",
+              "odds_american": "-120",
+              "odds_fraction": "833/1000",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "total": "72.5",
+              "open_total": "72.5",
+              "external_outcome_id": "0OU80496220O7250_1",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.909",
+              "odds_american": "-110",
+              "odds_fraction": "909/1000",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "total": "72.5",
+              "open_total": "72.5",
+              "external_outcome_id": "0OU80496220U7250_3",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.833",
+              "odds_american": "-120",
+              "odds_fraction": "833/1000",
+              "open_odds_decimal": "1.817",
+              "open_odds_american": "-122",
+              "open_odds_fraction": "817/1000",
+              "total": "72.5",
+              "open_total": "72.5",
+              "external_outcome_id": "-531479596",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.909",
+              "odds_american": "-110",
+              "odds_fraction": "909/1000",
+              "open_odds_decimal": "1.945",
+              "open_odds_american": "-106",
+              "open_odds_fraction": "189/200",
+              "total": "72.5",
+              "open_total": "72.5",
+              "external_outcome_id": "-531479595",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "176a87ef-0097-3bb4-a15b-b48c3964fdae",
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "2.000",
+              "open_odds_american": "+100",
+              "open_odds_fraction": "1/1",
+              "total": "73.5",
+              "open_total": "72.5",
+              "external_outcome_id": "4e33d0dd-70a5-3391-8313-5c029d6f62cc",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.830",
+              "open_odds_american": "-120",
+              "open_odds_fraction": "5/6",
+              "total": "73.5",
+              "open_total": "72.5",
+              "external_outcome_id": "f1c3dbde-d9dc-3bdd-a477-2d4cd2419f32",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "d06e57ae-eff6-4b48-af59-f0f115ccac2c",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.800",
+              "odds_american": "-125",
+              "odds_fraction": "4/5",
+              "open_odds_decimal": "1.800",
+              "open_odds_american": "-125",
+              "open_odds_fraction": "4/5",
+              "total": "72.5",
+              "open_total": "73.5",
+              "external_outcome_id": "a32ca1a6-d673-4103-8520-fdf6a35f57c9",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "total": "72.5",
+              "open_total": "73.5",
+              "external_outcome_id": "0eeca50e-5820-4e43-a37f-342d6c415990",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:231",
+      "name": "2nd half - handicap (incl. overtime)",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "-3.5",
+              "open_handicap": "-3.5",
+              "external_outcome_id": "27eacef1-9303-32b9-9945-875e7c9b0385",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "handicap": "3.5",
+              "open_handicap": "3.5",
+              "external_outcome_id": "8fd77fd4-cd9a-3f77-9155-9134840a46ab",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "247ebc38-7582-31b4-9a17-9bfd83b64ef2",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "-3.5",
+              "open_handicap": "-3.5",
+              "external_outcome_id": "27eacef1-9303-32b9-9945-875e7c9b0385",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "handicap": "3.5",
+              "open_handicap": "3.5",
+              "external_outcome_id": "8fd77fd4-cd9a-3f77-9155-9134840a46ab",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:232",
+      "name": "2nd half - total (incl. overtime)",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "total": "79.5",
+              "open_total": "79.5",
+              "external_outcome_id": "f8341771-4415-3182-8c07-3523b83e3fdd",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "total": "79.5",
+              "open_total": "79.5",
+              "external_outcome_id": "a3777d4f-8429-3f87-9e86-5099eb71480f",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "122a39d1-ec95-3e63-981a-9194a59fc4a2",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "total": "79.5",
+              "open_total": "78.5",
+              "external_outcome_id": "f8341771-4415-3182-8c07-3523b83e3fdd",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "total": "79.5",
+              "open_total": "78.5",
+              "external_outcome_id": "a3777d4f-8429-3f87-9e86-5099eb71480f",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:236",
+      "name": "1st quarter - total",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1328658003",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.770",
+              "odds_american": "-130",
+              "odds_fraction": "77/100",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "38.5",
+              "open_total": "38.5",
+              "external_outcome_id": "-531479598",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "2.000",
+              "odds_american": "+100",
+              "odds_fraction": "1/1",
+              "open_odds_decimal": "1.830",
+              "open_odds_american": "-120",
+              "open_odds_fraction": "5/6",
+              "total": "38.5",
+              "open_total": "38.5",
+              "external_outcome_id": "-531479597",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.770",
+              "odds_american": "-130",
+              "odds_fraction": "77/100",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "total": "38.5",
+              "external_outcome_id": "-531479598",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "2.000",
+              "odds_american": "+100",
+              "odds_fraction": "1/1",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "total": "38.5",
+              "external_outcome_id": "-531479597",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "036564a4-0611-3f87-8305-922b824f14ed",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "368eadac-8693-3a04-bbb5-638b1e0c0592",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "ce039923-f178-38a8-9b75-41eae145a610",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "563e008b-159e-48de-b6a1-de3d766ee9ac",
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.770",
+              "odds_american": "-130",
+              "odds_fraction": "77/100",
+              "open_odds_decimal": "1.830",
+              "open_odds_american": "-120",
+              "open_odds_fraction": "5/6",
+              "external_outcome_id": "891fceb0-8b41-45be-b71c-5a4ff58ebec1",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "2.000",
+              "odds_american": "+100",
+              "odds_fraction": "1/1",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "7e743445-07e0-42d4-a0e7-c88e0a5f9df1",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:236",
+      "name": "2nd quarter - total",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "fd737e40-2eaf-4408-85ef-60b180f4d6a2",
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.800",
+              "odds_american": "-125",
+              "odds_fraction": "4/5",
+              "open_odds_decimal": "1.800",
+              "open_odds_american": "-125",
+              "open_odds_fraction": "4/5",
+              "external_outcome_id": "906a4fcf-b5c8-4a4d-a77a-71c129f09a6f",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "external_outcome_id": "4bffabce-0b57-4bf9-ac8e-8c7b285924d5",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:236",
+      "name": "3rd quarter - total",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "c78d2969-fd59-4465-a42c-74f94beaab50",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.800",
+              "odds_american": "-125",
+              "odds_fraction": "4/5",
+              "open_odds_decimal": "1.830",
+              "open_odds_american": "-120",
+              "open_odds_fraction": "5/6",
+              "external_outcome_id": "a57a2e82-0c25-45f6-9fbc-5911760116ab",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "67dbb7d5-9929-4e1c-8b3d-699a80e5b08c",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:26",
+      "name": "odd/even",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1320515776",
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "external_outcome_id": "-552632839",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "external_outcome_id": "-552632838",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.890",
+              "open_odds_american": "-112",
+              "open_odds_fraction": "89/100",
+              "external_outcome_id": "-552632839",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.930",
+              "open_odds_american": "-108",
+              "open_odds_fraction": "93/100",
+              "external_outcome_id": "-552632838",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "c416dbea-faba-3229-a6cf-f733a6dc067f",
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "62e4ec53-0cc8-3064-9684-c1fb0432ffd0",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "bfc0d039-0ee2-362c-88f2-768749058940",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "e18e39ae-2ee0-44f1-a3cd-1173da92f96d",
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "external_outcome_id": "ec8e4d4e-09c1-49d6-bcaf-9d2eaa48a546",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "external_outcome_id": "d0b434a8-c39e-459f-82c1-17d0b3b1d944",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:302",
+      "name": "1st quarter - draw no bet",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1328658000",
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.450",
+              "odds_american": "-222",
+              "odds_fraction": "9/20",
+              "open_odds_decimal": "1.450",
+              "open_odds_american": "-222",
+              "open_odds_fraction": "9/20",
+              "external_outcome_id": "-531479603",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "2.700",
+              "odds_american": "+170",
+              "odds_fraction": "17/10",
+              "open_odds_decimal": "2.650",
+              "open_odds_american": "+165",
+              "open_odds_fraction": "33/20",
+              "external_outcome_id": "-531479604",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.450",
+              "odds_american": "-222",
+              "odds_fraction": "9/20",
+              "open_odds_decimal": "1.450",
+              "open_odds_american": "-222",
+              "open_odds_fraction": "9/20",
+              "external_outcome_id": "-531479603",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "2.700",
+              "odds_american": "+170",
+              "odds_fraction": "17/10",
+              "open_odds_decimal": "2.700",
+              "open_odds_american": "+170",
+              "open_odds_fraction": "17/10",
+              "external_outcome_id": "-531479604",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:303",
+      "name": "1st quarter - handicap",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1328658002",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.800",
+              "odds_american": "-125",
+              "odds_fraction": "4/5",
+              "open_odds_decimal": "1.800",
+              "open_odds_american": "-125",
+              "open_odds_fraction": "4/5",
+              "handicap": "-2.5",
+              "open_handicap": "-2.5",
+              "external_outcome_id": "-531479599",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "handicap": "2.5",
+              "open_handicap": "2.5",
+              "external_outcome_id": "-531479600",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.800",
+              "odds_american": "-125",
+              "odds_fraction": "4/5",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "handicap": "-2.5",
+              "open_handicap": "-3",
+              "external_outcome_id": "-531479599",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "2.5",
+              "open_handicap": "3",
+              "external_outcome_id": "-531479600",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "49420e29-e993-3ce1-b784-2c27d3b8c5a0",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.830",
+              "odds_american": "-120",
+              "odds_fraction": "5/6",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "handicap": "-2.5",
+              "open_handicap": "-3.5",
+              "external_outcome_id": "0ebabd3e-9bf8-32b2-bc1e-31ada9f1408a",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "2.000",
+              "odds_american": "+100",
+              "odds_fraction": "1/1",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "2.5",
+              "open_handicap": "3.5",
+              "external_outcome_id": "3b7eac71-8f57-3711-b385-2413f8f79335",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "adf69eb4-0001-407d-8c25-aedec753e6ed",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.830",
+              "odds_american": "-120",
+              "odds_fraction": "5/6",
+              "open_odds_decimal": "1.830",
+              "open_odds_american": "-120",
+              "open_odds_fraction": "5/6",
+              "handicap": "-2.5",
+              "open_handicap": "-2.5",
+              "external_outcome_id": "7455f8c9-31f9-4c57-b6c3-a7f9fa7e48d0",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "handicap": "2.5",
+              "open_handicap": "2.5",
+              "external_outcome_id": "f8f27e06-b9ec-4fbc-9fd8-69ef5a1542c4",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:303",
+      "name": "2nd quarter - handicap",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "2.5",
+              "open_handicap": "2.5",
+              "external_outcome_id": "dfdbcca3-d725-3d58-8b4e-20e6a0469d3d",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "handicap": "-2.5",
+              "open_handicap": "-2.5",
+              "external_outcome_id": "bfb3dff6-0963-3057-9f64-17188e279be3",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "b81f4b00-2b37-3ab4-9e64-6838e868315f",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "2.5",
+              "open_handicap": "2.5",
+              "external_outcome_id": "dfdbcca3-d725-3d58-8b4e-20e6a0469d3d",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "handicap": "-2.5",
+              "open_handicap": "-2.5",
+              "external_outcome_id": "bfb3dff6-0963-3057-9f64-17188e279be3",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "e6e9345e-96a4-432d-9d14-73eb2d1df8d5",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.830",
+              "odds_american": "-120",
+              "odds_fraction": "5/6",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "-2.5",
+              "open_handicap": "-2.5",
+              "external_outcome_id": "792007d6-4b76-465e-a562-6cab9b750288",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "2.5",
+              "open_handicap": "2.5",
+              "external_outcome_id": "b13eaafe-ad65-4ca3-98f1-09e16190a56f",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:303",
+      "name": "3rd quarter - handicap",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "ed072bad-d4e1-4f2e-b39e-ac9613a7810e",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "-2.5",
+              "open_handicap": "-2.5",
+              "external_outcome_id": "98fe61a5-b6de-4c1e-88c1-cd49f22ba88f",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "2.5",
+              "open_handicap": "2.5",
+              "external_outcome_id": "75f12951-46ee-4e6a-846b-09b390dbde5a",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:303",
+      "name": "4th quarter - handicap",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "425aadef-764a-4249-bb5a-1f1582bcf8c8",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.770",
+              "odds_american": "-130",
+              "odds_fraction": "77/100",
+              "open_odds_decimal": "1.770",
+              "open_odds_american": "-130",
+              "open_odds_fraction": "77/100",
+              "handicap": "-1.5",
+              "open_handicap": "-1.5",
+              "external_outcome_id": "797fe415-3382-45d6-94e2-86f8cbace915",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "2.000",
+              "odds_american": "+100",
+              "odds_fraction": "1/1",
+              "open_odds_decimal": "2.000",
+              "open_odds_american": "+100",
+              "open_odds_fraction": "1/1",
+              "handicap": "1.5",
+              "open_handicap": "1.5",
+              "external_outcome_id": "60595a4c-6f43-41e3-9d75-feb4dab3bd91",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:304",
+      "name": "1st quarter - odd/even",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "716b862d-4c9c-34a1-a5b2-d8d491cfdaba",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "c693fda6-0cd9-3aec-85a8-10cf97d0ad82",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "51b04a20-4cd3-3428-9a4e-e844209c75e5",
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "716b862d-4c9c-34a1-a5b2-d8d491cfdaba",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "c693fda6-0cd9-3aec-85a8-10cf97d0ad82",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "d3655302-438a-49cf-b360-976e11725665",
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "external_outcome_id": "f2e4d8e2-b276-4cbd-ab87-cdd5455d33b7",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "external_outcome_id": "36c69fd5-8bc1-4859-ad18-ae0d6adf84cc",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:304",
+      "name": "2nd quarter - odd/even",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "d35aa10c-83de-3945-b591-c203ff494ce7",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "827ea0a6-ec4b-3e34-ab8e-3b0d852a771d",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "3375ff4b-29f3-352d-a2c5-7bdadb3f2529",
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "d35aa10c-83de-3945-b591-c203ff494ce7",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "827ea0a6-ec4b-3e34-ab8e-3b0d852a771d",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:304",
+      "name": "3rd quarter - odd/even",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "e062fb3c-bd12-40f1-8435-728be64ab536",
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "external_outcome_id": "3dd8e561-5bda-4348-b446-79ed3ee97246",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "external_outcome_id": "26fdb7eb-2b0a-43b2-b1b7-45d3b69018f4",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:47",
+      "name": "halftime/fulltime",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:430",
+              "type": "away_home",
+              "odds_decimal": "6.750",
+              "odds_american": "+575",
+              "odds_fraction": "23/4",
+              "open_odds_decimal": "6.500",
+              "open_odds_american": "+550",
+              "open_odds_fraction": "11/2",
+              "external_outcome_id": "39a41fdb-57c9-3abe-801d-12aca1318c68",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:434",
+              "type": "away_away",
+              "odds_decimal": "6.750",
+              "odds_american": "+575",
+              "odds_fraction": "23/4",
+              "open_odds_decimal": "6.500",
+              "open_odds_american": "+550",
+              "open_odds_fraction": "11/2",
+              "external_outcome_id": "39a41fdb-57c9-3abe-801d-12aca1318c68",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:422",
+              "type": "home_away",
+              "odds_decimal": "10.000",
+              "odds_american": "+900",
+              "odds_fraction": "9/1",
+              "open_odds_decimal": "10.000",
+              "open_odds_american": "+900",
+              "open_odds_fraction": "9/1",
+              "external_outcome_id": "16eddaf0-72fc-36e2-a825-abaafc2110da",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:418",
+              "type": "home_home",
+              "odds_decimal": "10.000",
+              "odds_american": "+900",
+              "odds_fraction": "9/1",
+              "open_odds_decimal": "10.000",
+              "open_odds_american": "+900",
+              "open_odds_fraction": "9/1",
+              "external_outcome_id": "16eddaf0-72fc-36e2-a825-abaafc2110da",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:424",
+              "type": "draw_home",
+              "odds_decimal": "23.000",
+              "odds_american": "+2200",
+              "odds_fraction": "22/1",
+              "open_odds_decimal": "23.000",
+              "open_odds_american": "+2200",
+              "open_odds_fraction": "22/1",
+              "external_outcome_id": "240994d3-7336-3829-8adb-f10d8564d7c6",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:428",
+              "type": "draw_away",
+              "odds_decimal": "31.000",
+              "odds_american": "+3000",
+              "odds_fraction": "30/1",
+              "open_odds_decimal": "31.000",
+              "open_odds_american": "+3000",
+              "open_odds_fraction": "30/1",
+              "external_outcome_id": "95bc3547-f364-3178-9b33-d3adc4722edc",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "199f8678-8c74-3b5d-a20c-16a6c5095e86",
+          "outcomes": [
+            {
+              "id": "sr:outcome:430",
+              "type": "away_home",
+              "odds_decimal": "6.750",
+              "odds_american": "+575",
+              "odds_fraction": "23/4",
+              "open_odds_decimal": "6.500",
+              "open_odds_american": "+550",
+              "open_odds_fraction": "11/2",
+              "external_outcome_id": "39a41fdb-57c9-3abe-801d-12aca1318c68",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:434",
+              "type": "away_away",
+              "odds_decimal": "6.750",
+              "odds_american": "+575",
+              "odds_fraction": "23/4",
+              "open_odds_decimal": "6.500",
+              "open_odds_american": "+550",
+              "open_odds_fraction": "11/2",
+              "external_outcome_id": "39a41fdb-57c9-3abe-801d-12aca1318c68",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:422",
+              "type": "home_away",
+              "odds_decimal": "10.000",
+              "odds_american": "+900",
+              "odds_fraction": "9/1",
+              "open_odds_decimal": "10.000",
+              "open_odds_american": "+900",
+              "open_odds_fraction": "9/1",
+              "external_outcome_id": "16eddaf0-72fc-36e2-a825-abaafc2110da",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:418",
+              "type": "home_home",
+              "odds_decimal": "10.000",
+              "odds_american": "+900",
+              "odds_fraction": "9/1",
+              "open_odds_decimal": "10.000",
+              "open_odds_american": "+900",
+              "open_odds_fraction": "9/1",
+              "external_outcome_id": "16eddaf0-72fc-36e2-a825-abaafc2110da",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:424",
+              "type": "draw_home",
+              "odds_decimal": "23.000",
+              "odds_american": "+2200",
+              "odds_fraction": "22/1",
+              "open_odds_decimal": "23.000",
+              "open_odds_american": "+2200",
+              "open_odds_fraction": "22/1",
+              "external_outcome_id": "240994d3-7336-3829-8adb-f10d8564d7c6",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:428",
+              "type": "draw_away",
+              "odds_decimal": "31.000",
+              "odds_american": "+3000",
+              "odds_fraction": "30/1",
+              "open_odds_decimal": "31.000",
+              "open_odds_american": "+3000",
+              "open_odds_fraction": "30/1",
+              "external_outcome_id": "95bc3547-f364-3178-9b33-d3adc4722edc",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:64",
+      "name": "1st half - draw no bet",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1328657996",
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.330",
+              "odds_american": "-303",
+              "odds_fraction": "1/3",
+              "open_odds_decimal": "1.350",
+              "open_odds_american": "-286",
+              "open_odds_fraction": "7/20",
+              "external_outcome_id": "-531479611",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "3.400",
+              "odds_american": "+240",
+              "odds_fraction": "12/5",
+              "open_odds_decimal": "3.250",
+              "open_odds_american": "+225",
+              "open_odds_fraction": "9/4",
+              "external_outcome_id": "-531479612",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:18149",
+          "name": "DraftKings",
+          "removed": true,
+          "external_sport_event_id": "32486358",
+          "external_market_id": "1_80494779",
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.351",
+              "odds_american": "-285",
+              "odds_fraction": "351/1000",
+              "open_odds_decimal": "1.294",
+              "open_odds_american": "-340",
+              "open_odds_fraction": "147/500",
+              "external_outcome_id": "0ML80494779_1",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "3.300",
+              "odds_american": "+230",
+              "odds_fraction": "23/10",
+              "open_odds_decimal": "3.700",
+              "open_odds_american": "+270",
+              "open_odds_fraction": "27/10",
+              "external_outcome_id": "0ML80494779_3",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.351",
+              "odds_american": "-285",
+              "odds_fraction": "351/1000",
+              "open_odds_decimal": "1.294",
+              "open_odds_american": "-340",
+              "open_odds_fraction": "147/500",
+              "external_outcome_id": "0ML80494779_1",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "3.300",
+              "odds_american": "+230",
+              "odds_fraction": "23/10",
+              "open_odds_decimal": "3.700",
+              "open_odds_american": "+270",
+              "open_odds_fraction": "27/10",
+              "external_outcome_id": "0ML80494779_3",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "ca4ee866-012e-33ae-95e8-79f3fe80e7b2",
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.330",
+              "odds_american": "-303",
+              "odds_fraction": "1/3",
+              "open_odds_decimal": "1.350",
+              "open_odds_american": "-286",
+              "open_odds_fraction": "7/20",
+              "external_outcome_id": "37580780-71ca-3454-b788-1f716807d8b6",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "3.400",
+              "odds_american": "+240",
+              "odds_fraction": "12/5",
+              "open_odds_decimal": "3.280",
+              "open_odds_american": "+228",
+              "open_odds_fraction": "57/25",
+              "external_outcome_id": "ba04b5c3-f2f0-3cd6-b9a2-74006b4b6c58",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "14d5b1e1-7d9a-4867-b695-5723e51e0987",
+          "outcomes": [
+            {
+              "id": "sr:outcome:4",
+              "type": "home",
+              "odds_decimal": "1.330",
+              "odds_american": "-303",
+              "odds_fraction": "1/3",
+              "open_odds_decimal": "1.350",
+              "open_odds_american": "-286",
+              "open_odds_fraction": "7/20",
+              "external_outcome_id": "ee136caa-61ea-4390-a314-8ae289aa4b9b",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:5",
+              "type": "away",
+              "odds_decimal": "3.100",
+              "odds_american": "+210",
+              "odds_fraction": "21/10",
+              "open_odds_decimal": "3.000",
+              "open_odds_american": "+200",
+              "open_odds_fraction": "2/1",
+              "external_outcome_id": "d20b228a-f3ac-4aac-8825-e8555c271846",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:66",
+      "name": "1st half - handicap",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1328657997",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "handicap": "5.5",
+              "open_handicap": "5.5",
+              "external_outcome_id": "-531479610",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "handicap": "-5.5",
+              "open_handicap": "-5.5",
+              "external_outcome_id": "-531479609",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:18149",
+          "name": "DraftKings",
+          "removed": true,
+          "external_sport_event_id": "32486358",
+          "external_market_id": "2_80494779",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.893",
+              "odds_american": "-112",
+              "odds_fraction": "893/1000",
+              "open_odds_decimal": "1.926",
+              "open_odds_american": "-108",
+              "open_odds_fraction": "463/500",
+              "handicap": "5.5",
+              "open_handicap": "6",
+              "external_outcome_id": "0HC80494779P550_3",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.926",
+              "odds_american": "-108",
+              "odds_fraction": "463/500",
+              "open_odds_decimal": "1.893",
+              "open_odds_american": "-112",
+              "open_odds_fraction": "893/1000",
+              "handicap": "-5.5",
+              "open_handicap": "-6",
+              "external_outcome_id": "0HC80494779N550_1",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.893",
+              "odds_american": "-112",
+              "odds_fraction": "893/1000",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "5.5",
+              "open_handicap": "5.5",
+              "external_outcome_id": "-531479610",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.926",
+              "odds_american": "-108",
+              "odds_fraction": "463/500",
+              "open_odds_decimal": "1.951",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "951/1000",
+              "handicap": "-5.5",
+              "open_handicap": "-5.5",
+              "external_outcome_id": "-531479609",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "863841c2-38c0-36c7-8862-72e2c5a7cfbe",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.870",
+              "open_odds_american": "-115",
+              "open_odds_fraction": "87/100",
+              "handicap": "5.5",
+              "open_handicap": "5.5",
+              "external_outcome_id": "2f74fd3c-af11-3269-8268-20655aa849d3",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.950",
+              "open_odds_american": "-105",
+              "open_odds_fraction": "20/21",
+              "handicap": "-5.5",
+              "open_handicap": "-5.5",
+              "external_outcome_id": "5c7a781f-bda8-3916-8279-70e3a7f81b41",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "8db8168d-011b-493f-a067-470f72db7722",
+          "outcomes": [
+            {
+              "id": "sr:outcome:1715",
+              "type": "away_handicap",
+              "odds_decimal": "1.830",
+              "odds_american": "-120",
+              "odds_fraction": "5/6",
+              "open_odds_decimal": "1.830",
+              "open_odds_american": "-120",
+              "open_odds_fraction": "5/6",
+              "handicap": "5.5",
+              "open_handicap": "5.5",
+              "external_outcome_id": "e88bd0d9-2b16-45c9-b26d-3bf811bd14ca",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:1714",
+              "type": "home_handicap",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "handicap": "-5.5",
+              "open_handicap": "-5.5",
+              "external_outcome_id": "f9a2cf69-0fee-4f33-b65f-0fa4e5b18f78",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:68",
+      "name": "1st half - total",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1328657998",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.650",
+              "odds_american": "-154",
+              "odds_fraction": "13/20",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "75.5",
+              "open_total": "75.5",
+              "external_outcome_id": "-531479608",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "2.200",
+              "odds_american": "+120",
+              "odds_fraction": "6/5",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "75.5",
+              "open_total": "75.5",
+              "external_outcome_id": "-531479607",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:18149",
+          "name": "DraftKings",
+          "removed": true,
+          "external_sport_event_id": "32486358",
+          "external_market_id": "3_80494779",
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.926",
+              "open_odds_american": "-108",
+              "open_odds_fraction": "463/500",
+              "total": "75.5",
+              "open_total": "78.5",
+              "external_outcome_id": "0OU80494779O7550_1",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.952",
+              "odds_american": "-105",
+              "odds_fraction": "119/125",
+              "open_odds_decimal": "1.893",
+              "open_odds_american": "-112",
+              "open_odds_fraction": "893/1000",
+              "total": "75.5",
+              "open_total": "78.5",
+              "external_outcome_id": "0OU80494779U7550_3",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.931",
+              "open_odds_american": "-107",
+              "open_odds_fraction": "931/1000",
+              "total": "75.5",
+              "open_total": "76",
+              "external_outcome_id": "0OU80494779O7550_1",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.952",
+              "odds_american": "-105",
+              "odds_fraction": "119/125",
+              "open_odds_decimal": "1.890",
+              "open_odds_american": "-112",
+              "open_odds_fraction": "89/100",
+              "total": "75.5",
+              "open_total": "76",
+              "external_outcome_id": "0OU80494779U7550_3",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "2974a36f-e31d-329b-9db1-87be84e4d2fd",
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "76.5",
+              "open_total": "76",
+              "external_outcome_id": "6794326a-eca5-33ff-84cb-023bbcabf116",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.950",
+              "odds_american": "-105",
+              "odds_fraction": "20/21",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "total": "76.5",
+              "open_total": "76",
+              "external_outcome_id": "de2befa3-57e8-3091-9433-ace33c4894b3",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "6627b75f-c63e-4bfe-a7ad-cadcc58f3faf",
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.830",
+              "odds_american": "-120",
+              "odds_fraction": "5/6",
+              "open_odds_decimal": "1.740",
+              "open_odds_american": "-135",
+              "open_odds_fraction": "37/50",
+              "total": "75.5",
+              "open_total": "78.5",
+              "external_outcome_id": "8918ba05-b972-434f-8261-8c44980a05a6",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "2.050",
+              "open_odds_american": "+105",
+              "open_odds_fraction": "21/20",
+              "total": "75.5",
+              "open_total": "78.5",
+              "external_outcome_id": "1a33a7f2-acec-4375-a3ca-a86089031ace",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:69",
+      "name": "1st half - home total",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:18149",
+          "name": "DraftKings",
+          "removed": true,
+          "external_sport_event_id": "32486358",
+          "external_market_id": "3_80496217",
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.893",
+              "odds_american": "-112",
+              "odds_fraction": "893/1000",
+              "open_odds_decimal": "1.847",
+              "open_odds_american": "-118",
+              "open_odds_fraction": "847/1000",
+              "total": "40.5",
+              "open_total": "41.5",
+              "external_outcome_id": "0OU80496217U4050_3",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.926",
+              "odds_american": "-108",
+              "odds_fraction": "463/500",
+              "open_odds_decimal": "1.980",
+              "open_odds_american": "-102",
+              "open_odds_fraction": "49/50",
+              "total": "40.5",
+              "open_total": "41.5",
+              "external_outcome_id": "0OU80496217O4050_1",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.893",
+              "odds_american": "-112",
+              "odds_fraction": "893/1000",
+              "open_odds_decimal": "1.893",
+              "open_odds_american": "-112",
+              "open_odds_fraction": "893/1000",
+              "total": "40.5",
+              "open_total": "40.5",
+              "external_outcome_id": "0OU80496217U4050_3",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "1.926",
+              "odds_american": "-108",
+              "odds_fraction": "463/500",
+              "open_odds_decimal": "1.926",
+              "open_odds_american": "-108",
+              "open_odds_fraction": "463/500",
+              "total": "40.5",
+              "open_total": "40.5",
+              "external_outcome_id": "0OU80496217O4050_1",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:70",
+      "name": "1st half - away total",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:18149",
+          "name": "DraftKings",
+          "removed": true,
+          "external_sport_event_id": "32486358",
+          "external_market_id": "3_80496221",
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.833",
+              "odds_american": "-120",
+              "odds_fraction": "833/1000",
+              "open_odds_decimal": "1.847",
+              "open_odds_american": "-118",
+              "open_odds_fraction": "847/1000",
+              "total": "35.5",
+              "open_total": "35.5",
+              "external_outcome_id": "0OU80496221U3550_3",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "2.000",
+              "odds_american": "+100",
+              "odds_fraction": "1/1",
+              "open_odds_decimal": "1.980",
+              "open_odds_american": "-102",
+              "open_odds_fraction": "49/50",
+              "total": "35.5",
+              "open_total": "35.5",
+              "external_outcome_id": "0OU80496221O3550_1",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:13",
+              "type": "under",
+              "odds_decimal": "1.833",
+              "odds_american": "-120",
+              "odds_fraction": "833/1000",
+              "open_odds_decimal": "1.833",
+              "open_odds_american": "-120",
+              "open_odds_fraction": "833/1000",
+              "total": "35.5",
+              "open_total": "35.5",
+              "external_outcome_id": "0OU80496221U3550_3",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:12",
+              "type": "over",
+              "odds_decimal": "2.000",
+              "odds_american": "+100",
+              "odds_fraction": "1/1",
+              "open_odds_decimal": "2.000",
+              "open_odds_american": "+100",
+              "open_odds_fraction": "1/1",
+              "total": "35.5",
+              "open_total": "35.5",
+              "external_outcome_id": "0OU80496221O3550_1",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:74",
+      "name": "1st half - odd/even",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "removed": true,
+          "external_sport_event_id": "17728303",
+          "external_market_id": "1320515777",
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.850",
+              "odds_american": "-118",
+              "odds_fraction": "17/20",
+              "open_odds_decimal": "1.850",
+              "open_odds_american": "-118",
+              "open_odds_fraction": "17/20",
+              "external_outcome_id": "-552632837",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.850",
+              "odds_american": "-118",
+              "odds_fraction": "17/20",
+              "open_odds_decimal": "1.850",
+              "open_odds_american": "-118",
+              "open_odds_fraction": "17/20",
+              "external_outcome_id": "-552632836",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.850",
+              "odds_american": "-118",
+              "odds_fraction": "17/20",
+              "open_odds_decimal": "1.880",
+              "open_odds_american": "-114",
+              "open_odds_fraction": "22/25",
+              "external_outcome_id": "-552632837",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.850",
+              "odds_american": "-118",
+              "odds_fraction": "17/20",
+              "open_odds_decimal": "1.880",
+              "open_odds_american": "-114",
+              "open_odds_fraction": "22/25",
+              "external_outcome_id": "-552632836",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "978d1f36-a925-3d53-945a-c93693a607b6",
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "39ae5f17-693a-3ed5-af9e-169e2f9fd699",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "b0079814-ae95-3061-b08c-fde227122eba",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:40316",
+          "name": "ESPNbetCom",
+          "removed": true,
+          "external_sport_event_id": "e3eaf18e-0e76-4b6a-a3b5-b9b17e1f17a2",
+          "external_market_id": "73d8239d-48a9-43d3-a540-3a21e73d07f3",
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "7e76f891-0f46-464e-9e85-2b77b900782a",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.870",
+              "odds_american": "-115",
+              "odds_fraction": "87/100",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "8d68a39e-e572-42c4-9555-1560a08b533b",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:8010",
+      "name": "winning margin",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:18149",
+          "name": "DraftKings",
+          "removed": true,
+          "external_sport_event_id": "32486358",
+          "external_market_id": "260416773",
+          "outcomes": [
+            {
+              "id": "sr:outcome:2",
+              "type": "unknown",
+              "odds_decimal": "23.000",
+              "odds_american": "+2200",
+              "odds_fraction": "22/1",
+              "open_odds_decimal": "23.000",
+              "open_odds_american": "+2200",
+              "open_odds_fraction": "22/1",
+              "external_outcome_id": "0QA260416773#277199590_15L94682Q10Q20",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:10105",
+              "type": "home_from_10_to_12",
+              "odds_decimal": "7.000",
+              "odds_american": "+600",
+              "odds_fraction": "6/1",
+              "open_odds_decimal": "7.750",
+              "open_odds_american": "+675",
+              "open_odds_fraction": "27/4",
+              "external_outcome_id": "1a56fb6c-181a-3244-885a-a620ca06fdd1",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:10106",
+              "type": "home_from_21",
+              "odds_decimal": "11.000",
+              "odds_american": "+1000",
+              "odds_fraction": "10/1",
+              "open_odds_decimal": "11.000",
+              "open_odds_american": "+1000",
+              "open_odds_fraction": "10/1",
+              "external_outcome_id": "95e041e4-c5d9-30f4-98cf-b7df036e0aad",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:10205",
+              "type": "away_from_17_to_20",
+              "odds_decimal": "21.000",
+              "odds_american": "+2000",
+              "odds_fraction": "20/1",
+              "open_odds_decimal": "41.000",
+              "open_odds_american": "+4000",
+              "open_odds_fraction": "40/1",
+              "external_outcome_id": "d3b90e28-fd34-31f6-92a8-2a5e8c00c40d",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:2",
+              "type": "unknown",
+              "odds_decimal": "23.000",
+              "odds_american": "+2200",
+              "odds_fraction": "22/1",
+              "open_odds_decimal": "16.000",
+              "open_odds_american": "+1500",
+              "open_odds_fraction": "15/1",
+              "external_outcome_id": "0QA260416773#277199590_15L94682Q10Q20",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:10206",
+              "type": "away_from_21",
+              "odds_decimal": "56.000",
+              "odds_american": "+5500",
+              "odds_fraction": "55/1",
+              "open_odds_decimal": "56.000",
+              "open_odds_american": "+5500",
+              "open_odds_fraction": "55/1",
+              "external_outcome_id": "8a44eb51-46f7-3bb2-9e4c-75c8fd67bd25",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "e663dcba-bf7d-3ec8-a2fe-ede14d74d6dc",
+          "outcomes": [
+            {
+              "id": "sr:outcome:10105",
+              "type": "home_from_10_to_12",
+              "odds_decimal": "7.000",
+              "odds_american": "+600",
+              "odds_fraction": "6/1",
+              "open_odds_decimal": "7.750",
+              "open_odds_american": "+675",
+              "open_odds_fraction": "27/4",
+              "external_outcome_id": "1a56fb6c-181a-3244-885a-a620ca06fdd1",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:10106",
+              "type": "home_from_21",
+              "odds_decimal": "11.000",
+              "odds_american": "+1000",
+              "odds_fraction": "10/1",
+              "open_odds_decimal": "11.000",
+              "open_odds_american": "+1000",
+              "open_odds_fraction": "10/1",
+              "external_outcome_id": "95e041e4-c5d9-30f4-98cf-b7df036e0aad",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:2",
+              "type": "unknown",
+              "odds_decimal": "11.000",
+              "odds_american": "+1000",
+              "odds_fraction": "10/1",
+              "open_odds_decimal": "11.000",
+              "open_odds_american": "+1000",
+              "open_odds_fraction": "10/1",
+              "external_outcome_id": "298f7f1e-0f3e-33b1-9939-391b644abc50",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:10205",
+              "type": "away_from_17_to_20",
+              "odds_decimal": "21.000",
+              "odds_american": "+2000",
+              "odds_fraction": "20/1",
+              "open_odds_decimal": "41.000",
+              "open_odds_american": "+4000",
+              "open_odds_fraction": "40/1",
+              "external_outcome_id": "d3b90e28-fd34-31f6-92a8-2a5e8c00c40d",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:10206",
+              "type": "away_from_21",
+              "odds_decimal": "56.000",
+              "odds_american": "+5500",
+              "odds_fraction": "55/1",
+              "open_odds_decimal": "56.000",
+              "open_odds_american": "+5500",
+              "open_odds_fraction": "55/1",
+              "external_outcome_id": "8a44eb51-46f7-3bb2-9e4c-75c8fd67bd25",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:8011",
+      "name": "1st half winning margin",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:10106",
+              "type": "home_from_21",
+              "odds_decimal": "4.250",
+              "odds_american": "+325",
+              "odds_fraction": "13/4",
+              "open_odds_decimal": "4.250",
+              "open_odds_american": "+325",
+              "open_odds_fraction": "13/4",
+              "external_outcome_id": "566f8685-d5da-3496-9ffc-e037bb7f5251",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:10105",
+              "type": "home_from_10_to_12",
+              "odds_decimal": "10.000",
+              "odds_american": "+900",
+              "odds_fraction": "9/1",
+              "open_odds_decimal": "7.750",
+              "open_odds_american": "+675",
+              "open_odds_fraction": "27/4",
+              "external_outcome_id": "6792ba63-3a14-34b5-97db-1c3320572907",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:10205",
+              "type": "away_from_17_to_20",
+              "odds_decimal": "22.000",
+              "odds_american": "+2100",
+              "odds_fraction": "21/1",
+              "open_odds_decimal": "41.000",
+              "open_odds_american": "+4000",
+              "open_odds_fraction": "40/1",
+              "external_outcome_id": "4a3c9b2d-60dc-3e60-9bbf-fc2daeb03125",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:10206",
+              "type": "away_from_21",
+              "odds_decimal": "41.000",
+              "odds_american": "+4000",
+              "odds_fraction": "40/1",
+              "open_odds_decimal": "41.000",
+              "open_odds_american": "+4000",
+              "open_odds_fraction": "40/1",
+              "external_outcome_id": "2769b0ed-4b85-318e-91ce-260c4ba2dd90",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "d122790b-1f0f-34b2-a262-e3bfe893962c",
+          "outcomes": [
+            {
+              "id": "sr:outcome:10106",
+              "type": "home_from_21",
+              "odds_decimal": "4.250",
+              "odds_american": "+325",
+              "odds_fraction": "13/4",
+              "open_odds_decimal": "4.250",
+              "open_odds_american": "+325",
+              "open_odds_fraction": "13/4",
+              "external_outcome_id": "566f8685-d5da-3496-9ffc-e037bb7f5251",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:10105",
+              "type": "home_from_10_to_12",
+              "odds_decimal": "10.000",
+              "odds_american": "+900",
+              "odds_fraction": "9/1",
+              "open_odds_decimal": "7.750",
+              "open_odds_american": "+675",
+              "open_odds_fraction": "27/4",
+              "external_outcome_id": "6792ba63-3a14-34b5-97db-1c3320572907",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:10205",
+              "type": "away_from_17_to_20",
+              "odds_decimal": "22.000",
+              "odds_american": "+2100",
+              "odds_fraction": "21/1",
+              "open_odds_decimal": "36.000",
+              "open_odds_american": "+3500",
+              "open_odds_fraction": "35/1",
+              "external_outcome_id": "4a3c9b2d-60dc-3e60-9bbf-fc2daeb03125",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:10206",
+              "type": "away_from_21",
+              "odds_decimal": "41.000",
+              "odds_american": "+4000",
+              "odds_fraction": "40/1",
+              "open_odds_decimal": "36.000",
+              "open_odds_american": "+3500",
+              "open_odds_fraction": "35/1",
+              "external_outcome_id": "2769b0ed-4b85-318e-91ce-260c4ba2dd90",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr:market:94",
+      "name": "2nd half - odd/even",
+      "is_live": false,
+      "books": [
+        {
+          "id": "sr:book:25080",
+          "name": "consensus",
+          "removed": true,
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "ebddaf91-3ed3-3e51-a692-e607f4f9f1c7",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "274d6560-1d08-3b88-ad68-248b069bacae",
+              "removed": true
+            }
+          ]
+        },
+        {
+          "id": "sr:book:32219",
+          "name": "WilliamHillNewJersey",
+          "removed": true,
+          "external_sport_event_id": "20f0f850-6c83-4208-8ff8-6587a16a1f86",
+          "external_market_id": "f8c9ee67-4190-37b1-85a9-f5a7f5decda5",
+          "outcomes": [
+            {
+              "id": "sr:outcome:70",
+              "type": "odd",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "ebddaf91-3ed3-3e51-a692-e607f4f9f1c7",
+              "removed": true
+            },
+            {
+              "id": "sr:outcome:72",
+              "type": "even",
+              "odds_decimal": "1.910",
+              "odds_american": "-110",
+              "odds_fraction": "10/11",
+              "open_odds_decimal": "1.910",
+              "open_odds_american": "-110",
+              "open_odds_fraction": "10/11",
+              "external_outcome_id": "274d6560-1d08-3b88-ad68-248b069bacae",
+              "removed": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

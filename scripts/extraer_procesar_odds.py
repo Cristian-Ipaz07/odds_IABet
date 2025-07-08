@@ -1,4 +1,8 @@
+import sys
 import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from scripts.config import SPORTRADAR_API_KEY
+
 import json
 import requests
 from datetime import datetime, timedelta
@@ -6,133 +10,141 @@ from datetime import datetime, timedelta
 # Configuración de rutas
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JSON_DIR = os.path.join(BASE_DIR, 'json')
-ODDS_DIR = os.path.join(JSON_DIR, 'odds_extraidas')
+SPORTRADAR_DIR = os.path.join(JSON_DIR, 'sportradar_data')
+TEAM_ODDS_DIR = os.path.join(SPORTRADAR_DIR, 'team_odds')
 
-# Crear directorios si no existen
-os.makedirs(ODDS_DIR, exist_ok=True)
+os.makedirs(TEAM_ODDS_DIR, exist_ok=True)
 
-class OddsExtractor:
+class SportRadarTeamOdds:
     def __init__(self, api_key):
         self.api_key = api_key
-        self.base_url = "https://api.the-odds-api.com/v4"
+        self.base_url = "http://api.sportradar.us/nba/trial/v8/en"
+        self.current_season = "2024"
     
-    def obtener_todas_odds(self, fecha=None, region="us"):
-        """
-        Extrae TODOS los mercados (h2h, spreads, totals) en una sola llamada
-        """
+    def get_daily_schedule(self, date_str):
         try:
-            endpoint = f"{self.base_url}/sports/basketball_nba/odds"
-            params = {
-                'apiKey': self.api_key,
-                'regions': region,
-                'markets': 'h2h,spreads,totals',  # Solicitar todos los mercados
-                'oddsFormat': 'decimal',
-                'dateFormat': 'iso'
-            }
-            
-            if fecha:
-                params['date'] = fecha
-            
-            print(f"Obteniendo TODOS los mercados para {'fecha ' + fecha if fecha else 'próximos eventos'}...")
+            endpoint = f"{self.base_url}/games/{date_str}/schedule.json"
+            params = {'api_key': self.api_key}
+            print(f"Obteniendo calendario para {date_str}...")
             response = requests.get(endpoint, params=params)
             response.raise_for_status()
-            
-            # Verificar créditos restantes
-            remaining = response.headers.get('x-requests-remaining', 'Desconocido')
-            print(f"Requests restantes este mes: {remaining}")
-            
+            schedule_data = response.json()
+            archivo_salida = os.path.join(TEAM_ODDS_DIR, f"schedule_{date_str.replace('-', '_')}.json")
+            with open(archivo_salida, 'w') as f:
+                json.dump(schedule_data, f, indent=2)
+            print(f"Calendario guardado en: {archivo_salida}")
+            return schedule_data
+        except Exception as e:
+            print(f"Error al obtener calendario: {str(e)}")
+            return None
+
+    def get_game_odds(self, game_id):
+        try:
+            endpoint = f"{self.base_url}/games/{game_id}/odds.json"
+            params = {'api_key': self.api_key}
+            print(f"Obteniendo odds para el juego {game_id}...")
+            response = requests.get(endpoint, params=params)
+            response.raise_for_status()
             odds_data = response.json()
-            
-            # Guardar en archivo único con todos los mercados
-            fecha_archivo = fecha.replace("-", "_") if fecha else "proximos"
-            archivo_salida = os.path.join(ODDS_DIR, f"odds_completas_{fecha_archivo}.json")
-            
+            archivo_salida = os.path.join(TEAM_ODDS_DIR, f"odds_{game_id}.json")
             with open(archivo_salida, 'w') as f:
                 json.dump(odds_data, f, indent=2)
-            
-            print(f"Odds completas guardadas en: {archivo_salida}")
+            print(f"Odds guardadas en: {archivo_salida}")
             return odds_data
-        
         except Exception as e:
             print(f"Error al obtener odds: {str(e)}")
             return None
-    
-    def procesar_odds_completas(self, odds_data):
-        """Procesa todos los mercados de una sola respuesta API"""
-        if not odds_data:
+
+    def get_live_game_stats(self, game_id):
+        try:
+            endpoint = f"{self.base_url}/games/{game_id}/summary.json"
+            params = {'api_key': self.api_key}
+            print(f"Obteniendo estadísticas en vivo para el juego {game_id}...")
+            response = requests.get(endpoint, params=params)
+            response.raise_for_status()
+            live_data = response.json()
+            archivo_salida = os.path.join(TEAM_ODDS_DIR, f"live_{game_id}.json")
+            with open(archivo_salida, 'w') as f:
+                json.dump(live_data, f, indent=2)
+            print(f"Estadísticas en vivo guardadas en: {archivo_salida}")
+            return live_data
+        except Exception as e:
+            print(f"Error al obtener estadísticas en vivo: {str(e)}")
             return None
-        
-        processed = []
-        for game in odds_data:
-            game_info = {
-                "game_id": game.get('id'),
-                "date": game.get('commence_time'),
-                "home_team": game.get('home_team'),
-                "away_team": game.get('away_team'),
-                "odds": {
-                    "moneyline": {"home": None, "away": None},
-                    "spread": {"home": None, "away": None, "points": None},
-                    "total": {"over": None, "under": None, "points": None}
-                }
-            }
-            
-            # Procesar todos los bookmakers
-            for bookmaker in game.get('bookmakers', []):
-                for market in bookmaker.get('markets', []):
-                    if market['key'] == 'h2h':
-                        for outcome in market['outcomes']:
-                            if outcome['name'] == game['home_team']:
-                                game_info['odds']['moneyline']['home'] = outcome['price']
-                            else:
-                                game_info['odds']['moneyline']['away'] = outcome['price']
-                    
-                    elif market['key'] == 'spreads':
-                        for outcome in market['outcomes']:
-                            if outcome['name'] == game['home_team']:
-                                game_info['odds']['spread']['home'] = outcome['price']
-                                game_info['odds']['spread']['points'] = outcome['point']
-                            else:
-                                game_info['odds']['spread']['away'] = outcome['price']
-                    
-                    elif market['key'] == 'totals':
-                        for outcome in market['outcomes']:
-                            if outcome['name'] == 'Over':
-                                game_info['odds']['total']['over'] = outcome['price']
-                                game_info['odds']['total']['points'] = outcome['point']
-                            else:
-                                game_info['odds']['total']['under'] = outcome['price']
-            
-            processed.append(game_info)
-        
+
+    def _process_odds_data(self, market):
+        processed = {
+            "moneyline": {"home": None, "away": None},
+            "spread": {"home": None, "away": None, "points": None},
+            "total": {"over": None, "under": None, "points": None}
+        }
+
+        if market['name'] == "moneyline":
+            for outcome in market.get('outcomes', []):
+                if outcome['designation'] == 'home':
+                    processed['moneyline']['home'] = outcome.get('odds')
+                elif outcome['designation'] == 'away':
+                    processed['moneyline']['away'] = outcome.get('odds')
+
+        elif market['name'] == "spread":
+            for outcome in market.get('outcomes', []):
+                if outcome['designation'] == 'home':
+                    processed['spread']['home'] = outcome.get('odds')
+                    processed['spread']['points'] = outcome.get('point_spread')
+                elif outcome['designation'] == 'away':
+                    processed['spread']['away'] = outcome.get('odds')
+
+        elif market['name'] == "total":
+            for outcome in market.get('outcomes', []):
+                if outcome['designation'] == 'over':
+                    processed['total']['over'] = outcome.get('odds')
+                    processed['total']['points'] = outcome.get('total')
+                elif outcome['designation'] == 'under':
+                    processed['total']['under'] = outcome.get('odds')
+                    processed['total']['points'] = outcome.get('total')
+
         return processed
 
+    def process_daily_odds(self, date_str):
+        schedule = self.get_daily_schedule(date_str)
+        if not schedule or 'games' not in schedule:
+            return None
+
+        results = []
+        for game in schedule['games']:
+            game_id = game['id']
+            odds_data = self.get_game_odds(game_id)
+            if odds_data and 'bookmakers' in odds_data:
+                for bookmaker in odds_data['bookmakers']:
+                    markets = bookmaker.get('markets', [])
+                    game_odds = {}
+                    for market in markets:
+                        data = self._process_odds_data(market)
+                        for key in data:
+                            game_odds[key] = data[key]
+                    results.append({
+                        "game_id": game_id,
+                        "home_team": game['home']['name'],
+                        "away_team": game['away']['name'],
+                        "odds": game_odds
+                    })
+        archivo_json = os.path.join(TEAM_ODDS_DIR, f"odds_completas_{date_str.replace('-', '_')}.json")
+        with open(archivo_json, "w") as f:
+            json.dump(results, f, indent=2)
+        print(f"\n✅ Odds procesadas y guardadas en {archivo_json}")
+        return results
 
 if __name__ == '__main__':
-    api_key = "9551b637acf113c4c45a0226aa620831"  # ¡Recuerda proteger tu API key!
-    
-    extractor = OddsExtractor(api_key)
-    
-    # Ejemplo de uso mejorado
-    fechas_prueba = [
-        datetime.now().strftime("%Y-%m-%d"),  # Hoy
-        (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")  # Mañana
-    ]
-    
-    for fecha in fechas_prueba:
-        print(f"\nProcesando fecha: {fecha if fecha else 'Próximos eventos'}")
-        
-        # Una sola llamada para todos los mercados
-        odds_crudas = extractor.obtener_todas_odds(fecha)
-        
-        if odds_crudas:
-            odds_procesadas = extractor.procesar_odds_completas(odds_crudas)
-            print(f"Procesados {len(odds_procesadas)} partidos con todos los mercados")
-            
-            # Ejemplo de output para el primer partido
-            if odds_procesadas:
-                primer_partido = odds_procesadas[0]
-                print("\nEjemplo de datos procesados:")
-                print(f"Partido: {primer_partido['home_team']} vs {primer_partido['away_team']}")
-                print(f"Moneyline: {primer_partido['odds']['moneyline']}")
-                print(f"Spread: {primer_partido['odds']['spread']}")
-                print(f"Total: {primer_partido['odds']['total']}")
+    extractor = SportRadarTeamOdds(SPORTRADAR_API_KEY)
+
+    fecha_hoy = "2024-06-10"
+    print(f"\nProcesando odds para {fecha_hoy}")
+    odds_hoy = extractor.process_daily_odds(fecha_hoy)
+
+    if odds_hoy:
+        print(f"\nResumen de odds para hoy:")
+        for game in odds_hoy:
+            print(f"\n{game['home_team']} vs {game['away_team']}")
+            print(f"Moneyline: {game['odds']['moneyline']}")
+            print(f"Spread: {game['odds']['spread']}")
+            print(f"Total: {game['odds']['total']}")

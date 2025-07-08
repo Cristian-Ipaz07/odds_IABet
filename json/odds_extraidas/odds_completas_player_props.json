@@ -1,0 +1,1021 @@
+{
+  "metadata": {
+    "generated_at": "2025-07-06T17:44:46.834023",
+    "event_id": "sr:sport_event:56930759",
+    "teams": [
+      "Philadelphia Eagles",
+      "Washington Commanders"
+    ]
+  },
+  "players_props": [
+    {
+      "player_id": "sr:player:827727",
+      "player_name": "Slay, Darius",
+      "team_id": "sr:competitor:4345",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.53,
+                  "total": 0.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.4,
+                  "total": 0.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.508,
+                  "total": 0.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.54,
+                  "total": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:828039",
+      "player_name": "Wagner, Bobby",
+      "team_id": "sr:competitor:4432",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.65,
+                  "total": 3.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.15,
+                  "total": 3.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.694,
+                  "total": 3.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.14,
+                  "total": 3.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:834543",
+      "player_name": "Fowler Jr., Dante",
+      "team_id": "sr:competitor:4392",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.45,
+                  "total": 0.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.65,
+                  "total": 0.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.535,
+                  "total": 0.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.47,
+                  "total": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:1129551",
+      "player_name": "Allen, Jonathan",
+      "team_id": "sr:competitor:4423",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.55,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.48,
+                  "total": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:1129561",
+      "player_name": "Lattimore, Marshon",
+      "team_id": "sr:competitor:4432",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.2,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.62,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.2,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.658,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:25080",
+              "book_name": "consensus",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.017,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.831,
+                  "total": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:1181532",
+      "player_name": "Burks, Oren",
+      "team_id": "sr:competitor:4416",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.95,
+                  "total": 3.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.8,
+                  "total": 3.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.893,
+                  "total": 3.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.885,
+                  "total": 3.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:1217428",
+      "player_name": "Sweat, Josh",
+      "team_id": "sr:competitor:4412",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.4,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.53,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.29,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.613,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:25080",
+              "book_name": "consensus",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.018,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.814,
+                  "total": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:1223432",
+      "player_name": "Luvu, Frankie",
+      "team_id": "sr:competitor:4432",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.2,
+                  "total": 3.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.62,
+                  "total": 3.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.32,
+                  "total": 3.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.595,
+                  "total": 3.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:1224976",
+      "player_name": "Armstrong, Dorance",
+      "team_id": "sr:competitor:4432",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.1,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.67,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.1,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.719,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:25080",
+              "book_name": "consensus",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.017,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.831,
+                  "total": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:1236166",
+      "player_name": "Blankenship, Reed",
+      "team_id": "sr:competitor:4428",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.57,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.3,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.541,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.45,
+                  "total": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:1436248",
+      "player_name": "Martin, Jartavius",
+      "team_id": "sr:competitor:4432",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.57,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.3,
+                  "total": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:1693721",
+      "player_name": "Smith, Nolan",
+      "team_id": "sr:competitor:4428",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.05,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.72,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.06,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.752,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:25080",
+              "book_name": "consensus",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.05,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.79,
+                  "total": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:1694591",
+      "player_name": "Sainristil, Mike",
+      "team_id": "sr:competitor:4432",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.95,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.8,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.971,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.813,
+                  "total": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:1734827",
+      "player_name": "Gardner-Johnson, Chauncey",
+      "team_id": "sr:competitor:4324",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.95,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.78,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.935,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.847,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:25080",
+              "book_name": "consensus",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.018,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.814,
+                  "total": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:1998857",
+      "player_name": "Newton, Jer'Zhan",
+      "team_id": "sr:competitor:4432",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.91,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.83,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:25080",
+              "book_name": "consensus",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.021,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.811,
+                  "total": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:2003871",
+      "player_name": "Mitchell, Quinyon",
+      "team_id": "sr:competitor:4428",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.91,
+                  "total": 0.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.83,
+                  "total": 0.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.98,
+                  "total": 0.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.813,
+                  "total": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:2007055",
+      "player_name": "Carter, Jalen",
+      "team_id": "sr:competitor:4428",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.85,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.9,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.787,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.01,
+                  "total": 1.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:25080",
+              "book_name": "consensus",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.011,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.839,
+                  "total": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:2039979",
+      "player_name": "Baun, Zack",
+      "team_id": "sr:competitor:4428",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.7,
+                  "total": 3.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.1,
+                  "total": 3.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.667,
+                  "total": 3.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.18,
+                  "total": 3.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:2040555",
+      "player_name": "Igbinoghene, Noah",
+      "team_id": "sr:competitor:4432",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.55,
+                  "total": 0.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.35,
+                  "total": 0.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.498,
+                  "total": 0.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.57,
+                  "total": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:2040685",
+      "player_name": "Chinn, Jeremy",
+      "team_id": "sr:competitor:4390",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.05,
+                  "total": 2.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.72,
+                  "total": 2.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.07,
+                  "total": 2.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.741,
+                  "total": 2.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "player_id": "sr:player:2795673",
+      "player_name": "DeJean, Cooper",
+      "team_id": "sr:competitor:4428",
+      "markets": [
+        {
+          "market_id": "sr:market:6010",
+          "market_name": "total assists (incl. overtime)",
+          "books": [
+            {
+              "book_id": "sr:book:17324",
+              "book_name": "MGM",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 1.42,
+                  "total": 0.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 2.7,
+                  "total": 0.5
+                }
+              ]
+            },
+            {
+              "book_id": "sr:book:18149",
+              "book_name": "DraftKings",
+              "outcomes": [
+                {
+                  "type": "over",
+                  "odds_decimal": 2.27,
+                  "total": 1.5
+                },
+                {
+                  "type": "under",
+                  "odds_decimal": 1.617,
+                  "total": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

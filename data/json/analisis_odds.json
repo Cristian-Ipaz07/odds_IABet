@@ -1,87 +1,87 @@
 {
   "metadata": {
-    "generated_at": "2025-06-13T23:47:54.454943",
-    "game_id": "aa4b036621875e4870ae8bdbca0dfc50",
-    "home_team": "Oklahoma City Thunder",
-    "away_team": "Indiana Pacers",
-    "commence_time": "2025-06-17T00:35:00Z",
+    "generated_at": "2025-07-06T20:52:29.119297",
+    "game_id": "sr:sport_event:56328113",
+    "home_team": "Minnesota Lynx",
+    "away_team": "Golden State Valkyries",
+    "commence_time": "2025-07-06T00:00:00+00:00",
     "data_source": "API"
   },
   "model_predictions": [
     {
-      "game_id": "nba-20240521-OKC-IND",
-      "date": "2025-05-21",
+      "game_id": "wnba-20250706-MIN-GSV",
+      "date": "2025-07-06",
       "target_type": "team",
       "prediction_type": "is_win",
-      "team": "Oklahoma City Thunder",
-      "probability": 0.68,
-      "confidence": 0.82,
-      "bet_line": "OKC",
+      "team": "Minnesota Lynx",
+      "probability": 0.85,
+      "confidence": 0.9,
+      "bet_line": "MIN",
       "bet_type": "winner",
-      "event_datetime": "2025-05-21T00:00:00Z"
+      "event_datetime": "2025-07-06T00:00:00Z"
     },
     {
-      "game_id": "nba-20240521-OKC-IND",
-      "date": "2025-05-21",
+      "game_id": "wnba-20250706-MIN-GSV",
+      "date": "2025-07-06",
       "target_type": "team",
       "prediction_type": "is_win",
-      "team": "Indiana Pacers",
-      "probability": 0.32,
-      "confidence": 0.75,
-      "bet_line": "IND",
+      "team": "Golden State Valkyries",
+      "probability": 0.15,
+      "confidence": 0.6,
+      "bet_line": "GSV",
       "bet_type": "winner",
-      "event_datetime": "2025-05-21T00:00:00Z"
+      "event_datetime": "2025-07-06T00:00:00Z"
     }
   ],
   "odds_consolidadas": {
     "moneyline": {
-      "home": 1.237142857142857,
-      "away": 4.2628571428571425
+      "home": 1.1963333333333332,
+      "away": 4.666666666666667
     },
     "spread": {
-      "home": 1.9114285714285713,
-      "away": 1.9128571428571428,
-      "points": -9.5
+      "home": 1.9092857142857143,
+      "away": 1.9044285714285714,
+      "points": -9.785714285714286
     },
     "total": {
-      "over": 1.907142857142857,
-      "under": 1.9142857142857141,
-      "points": 222.85714285714286
+      "over": 1.899,
+      "under": 1.915,
+      "points": 155.71428571428572
     }
   },
   "value_analysis": [
     {
-      "game_id": "nba-20240521-OKC-IND",
+      "game_id": "wnba-20250706-MIN-GSV",
       "market": "moneyline",
-      "selection": "Oklahoma City Thunder",
-      "model_prob": 0.68,
-      "implied_prob": 0.8083140877598153,
-      "odds": 1.237142857142857,
-      "value": -0.15874285714285713,
-      "confidence": 0.82,
+      "selection": "Minnesota Lynx",
+      "model_prob": 0.85,
+      "implied_prob": 0.8358874338255782,
+      "odds": 1.1963333333333332,
+      "value": 0.016883333333333285,
+      "confidence": 0.9,
       "recommendation": "NO BET"
     },
     {
-      "game_id": "nba-20240521-OKC-IND",
+      "game_id": "wnba-20250706-MIN-GSV",
       "market": "moneyline",
-      "selection": "Indiana Pacers",
-      "model_prob": 0.32,
-      "implied_prob": 0.2345844504021448,
-      "odds": 4.2628571428571425,
-      "value": 0.36411428571428567,
-      "confidence": 0.75,
-      "recommendation": "STRONG BET"
+      "selection": "Golden State Valkyries",
+      "model_prob": 0.15,
+      "implied_prob": 0.21428571428571427,
+      "odds": 4.666666666666667,
+      "value": -0.3,
+      "confidence": 0.6,
+      "recommendation": "NO BET"
     }
   ],
   "top_recommendation": {
-    "game_id": "nba-20240521-OKC-IND",
+    "game_id": "wnba-20250706-MIN-GSV",
     "market": "moneyline",
-    "selection": "Indiana Pacers",
-    "model_prob": 0.32,
-    "implied_prob": 0.2345844504021448,
-    "odds": 4.2628571428571425,
-    "value": 0.36411428571428567,
-    "confidence": 0.75,
-    "recommendation": "STRONG BET"
+    "selection": "Minnesota Lynx",
+    "model_prob": 0.85,
+    "implied_prob": 0.8358874338255782,
+    "odds": 1.1963333333333332,
+    "value": 0.016883333333333285,
+    "confidence": 0.9,
+    "recommendation": "NO BET"
   }
 }

@@ -1,0 +1,411 @@
+[
+  {
+    "id": "sr:sport_event:56328113",
+    "sport_key": "basketball",
+    "sport_title": "Basketball",
+    "commence_time": "2025-07-06T00:00:00+00:00",
+    "home_team": "Minnesota Lynx",
+    "away_team": "Golden State Valkyries",
+    "bookmakers": [
+      {
+        "key": "mgm",
+        "title": "MGM",
+        "last_update": null,
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.21
+              },
+              {
+                "name": "Golden State Valkyries",
+                "price": 4.4
+              }
+            ]
+          },
+          {
+            "key": "h2h",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.19
+              },
+              {
+                "name": "Golden State Valkyries",
+                "price": 5.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Golden State Valkyries",
+                "price": 1.87,
+                "point": 10.5
+              },
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.95,
+                "point": -10.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 156.5
+              },
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 156.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "consensus",
+        "title": "consensus",
+        "last_update": null,
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.21
+              },
+              {
+                "name": "Golden State Valkyries",
+                "price": 4.4
+              }
+            ]
+          },
+          {
+            "key": "h2h",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.199
+              },
+              {
+                "name": "Golden State Valkyries",
+                "price": 4.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Golden State Valkyries",
+                "price": 1.909,
+                "point": 10.0
+              },
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.909,
+                "point": -10.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.877,
+                "point": 155.0
+              },
+              {
+                "name": "Under",
+                "price": 1.943,
+                "point": 155.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": null,
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.206
+              },
+              {
+                "name": "Golden State Valkyries",
+                "price": 4.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Golden State Valkyries",
+                "price": 1.909,
+                "point": 10.0
+              },
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.909,
+                "point": -10.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Under",
+                "price": 1.909,
+                "point": 156.0
+              },
+              {
+                "name": "Over",
+                "price": 1.909,
+                "point": 156.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": null,
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.192
+              },
+              {
+                "name": "Golden State Valkyries",
+                "price": 4.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.877,
+                "point": -9.5
+              },
+              {
+                "name": "Golden State Valkyries",
+                "price": 1.943,
+                "point": 9.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.877,
+                "point": 155.0
+              },
+              {
+                "name": "Under",
+                "price": 1.943,
+                "point": 155.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sugarhousenj",
+        "title": "SugarHouseNJ",
+        "last_update": null,
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.18
+              },
+              {
+                "name": "Golden State Valkyries",
+                "price": 4.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Golden State Valkyries",
+                "price": 1.88,
+                "point": 9.5
+              },
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.9,
+                "point": -9.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 156.0
+              },
+              {
+                "name": "Over",
+                "price": 1.9,
+                "point": 156.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhillnewjersey",
+        "title": "WilliamHillNewJersey",
+        "last_update": null,
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.18
+              },
+              {
+                "name": "Golden State Valkyries",
+                "price": 5.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Golden State Valkyries",
+                "price": 1.91,
+                "point": 9.5
+              },
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.91,
+                "point": -9.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 156.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 156.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "espnbetcom",
+        "title": "ESPNbetCom",
+        "last_update": null,
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.2
+              },
+              {
+                "name": "Golden State Valkyries",
+                "price": 4.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Golden State Valkyries",
+                "price": 1.91,
+                "point": 9.5
+              },
+              {
+                "name": "Minnesota Lynx",
+                "price": 1.91,
+                "point": -9.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": null,
+            "outcomes": [
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 155.5
+              },
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 155.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
