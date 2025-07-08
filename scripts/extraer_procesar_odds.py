@@ -1,19 +1,12 @@
-import sys
+import json
 import os
+import sys
+from datetime import datetime, timedelta
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from scripts.config import SPORTRADAR_API_KEY
 
-import json
 import requests
-from datetime import datetime, timedelta
-
-# Configuración de rutas
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-JSON_DIR = os.path.join(BASE_DIR, 'json')
-SPORTRADAR_DIR = os.path.join(JSON_DIR, 'sportradar_data')
-TEAM_ODDS_DIR = os.path.join(SPORTRADAR_DIR, 'team_odds')
-
-os.makedirs(TEAM_ODDS_DIR, exist_ok=True)
 
 class SportRadarTeamOdds:
     def __init__(self, api_key):
@@ -29,10 +22,6 @@ class SportRadarTeamOdds:
             response = requests.get(endpoint, params=params)
             response.raise_for_status()
             schedule_data = response.json()
-            archivo_salida = os.path.join(TEAM_ODDS_DIR, f"schedule_{date_str.replace('-', '_')}.json")
-            with open(archivo_salida, 'w') as f:
-                json.dump(schedule_data, f, indent=2)
-            print(f"Calendario guardado en: {archivo_salida}")
             return schedule_data
         except Exception as e:
             print(f"Error al obtener calendario: {str(e)}")
@@ -46,10 +35,6 @@ class SportRadarTeamOdds:
             response = requests.get(endpoint, params=params)
             response.raise_for_status()
             odds_data = response.json()
-            archivo_salida = os.path.join(TEAM_ODDS_DIR, f"odds_{game_id}.json")
-            with open(archivo_salida, 'w') as f:
-                json.dump(odds_data, f, indent=2)
-            print(f"Odds guardadas en: {archivo_salida}")
             return odds_data
         except Exception as e:
             print(f"Error al obtener odds: {str(e)}")
@@ -63,10 +48,6 @@ class SportRadarTeamOdds:
             response = requests.get(endpoint, params=params)
             response.raise_for_status()
             live_data = response.json()
-            archivo_salida = os.path.join(TEAM_ODDS_DIR, f"live_{game_id}.json")
-            with open(archivo_salida, 'w') as f:
-                json.dump(live_data, f, indent=2)
-            print(f"Estadísticas en vivo guardadas en: {archivo_salida}")
             return live_data
         except Exception as e:
             print(f"Error al obtener estadísticas en vivo: {str(e)}")
@@ -128,10 +109,6 @@ class SportRadarTeamOdds:
                         "away_team": game['away']['name'],
                         "odds": game_odds
                     })
-        archivo_json = os.path.join(TEAM_ODDS_DIR, f"odds_completas_{date_str.replace('-', '_')}.json")
-        with open(archivo_json, "w") as f:
-            json.dump(results, f, indent=2)
-        print(f"\n✅ Odds procesadas y guardadas en {archivo_json}")
         return results
 
 if __name__ == '__main__':

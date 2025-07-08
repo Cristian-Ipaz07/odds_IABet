@@ -70,46 +70,42 @@ def imprimir_resumen_player_props(analisis):
         print(f"Prob. modelo: {rec['model_prob']*100:.1f}% | Prob. implícita: {rec['implied_prob']*100:.1f}%")
         print(f"Confianza: {rec['confidence']*100:.0f}% | Recomendación: {rec['recommendation']}")
 
-def main():
-    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    DATA_JSON_DIR = os.path.join(BASE_DIR, 'data', 'json')
-    ODDS_JSON_DIR = os.path.join(BASE_DIR, 'json', 'odds_extraidas')
-    os.makedirs(DATA_JSON_DIR, exist_ok=True)
+def analizar_player_props_archivos(odds_player_props_path, modelo_player_props_path):
+    """Carga datos desde archivos y devuelve el análisis."""
 
-    odds_player_props_path = os.path.join(ODDS_JSON_DIR, 'odds_completas_player_props.json')
-    modelo_player_props_path = os.path.join(DATA_JSON_DIR, 'datos_modelo_player_props.json')
-    output_path = os.path.join(DATA_JSON_DIR, 'analisis_odds_player_props.json')
-
-    # Carga archivos
     with open(odds_player_props_path, 'r', encoding='utf-8') as f:
         odds_data = json.load(f)
     with open(modelo_player_props_path, 'r', encoding='utf-8') as f:
         modelo_data = json.load(f)
 
-    # Procesa y genera recomendaciones
-    odds_props = odds_data['players_props']
-    predicciones = modelo_data['predictions']
-    recomendaciones = analizar_player_props(predicciones, odds_props)
+    analisis = generar_analisis_player_props(modelo_data['predictions'], odds_data['players_props'], odds_data.get('metadata', {}))
+    imprimir_resumen_player_props(analisis)
+    return analisis
 
-    analisis = {
+
+def generar_analisis_player_props(predicciones, odds_props, metadata=None):
+    """Genera el análisis de player props y devuelve un diccionario."""
+    recomendaciones = analizar_player_props(predicciones, odds_props)
+    return {
         'metadata': {
             'generated_at': datetime.now().isoformat(),
-            'event_id': odds_data.get('metadata', {}).get('event_id', ''),
-            'teams': odds_data.get('metadata', {}).get('teams', []),
-            'data_source': 'API+modelo'
+            'event_id': metadata.get('event_id', '') if metadata else '',
+            'teams': metadata.get('teams', []) if metadata else [],
+            'data_source': 'API+modelo',
         },
         'model_predictions': predicciones,
         'odds_player_props': odds_props,
         'value_analysis': recomendaciones,
-        'top_recommendation': max(recomendaciones, key=lambda x: x.get('value', 0)) if recomendaciones else None
+        'top_recommendation': max(recomendaciones, key=lambda x: x.get('value', 0)) if recomendaciones else None,
     }
 
-    # Guarda resultado
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(analisis, f, indent=2, ensure_ascii=False)
-
-    imprimir_resumen_player_props(analisis)
-    print(f"\nAnálisis completo guardado en: {output_path}")
 
 if __name__ == '__main__':
-    main()
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    DATA_JSON_DIR = os.path.join(BASE_DIR, 'data', 'json')
+    ODDS_JSON_DIR = os.path.join(BASE_DIR, 'json', 'odds_extraidas')
+    odds_path = os.path.join(ODDS_JSON_DIR, 'odds_completas_player_props.json')
+    modelo_path = os.path.join(DATA_JSON_DIR, 'datos_modelo_player_props.json')
+    if os.path.isfile(odds_path) and os.path.isfile(modelo_path):
+        analizar_player_props_archivos(odds_path, modelo_path)
+
